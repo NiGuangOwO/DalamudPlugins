@@ -1,0 +1,23 @@
+{
+  "Author": "veyn",
+  "Name": "Boss Mod",
+  "InternalName": "BossMod",
+  "AssemblyVersion": "0.0.0.115",
+  "Description": "来自y佬维护版编译，仅保留画图，还不快说谢谢y佬",
+  "ApplicableVersion": "2023.12.07.0000.0000",
+  "RepoUrl": "https://github.com/awgil/ffxiv_bossmod",
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "ImageUrls": [
+    "https://raw.githubusercontent.com/awgil/ffxiv_bossmod/master/Data/image1.png",
+    "https://raw.githubusercontent.com/awgil/ffxiv_bossmod/master/Data/image2.png",
+    "https://raw.githubusercontent.com/awgil/ffxiv_bossmod/master/Data/image3.png"
+  ],
+  "IconUrl": "https://raw.githubusercontent.com/awgil/ffxiv_bossmod/f4efcb5dc279d21ee16185d5a9f2d09a3a2bc58b/Data/icon.png",
+  "Punchline": "大脑按摩用的",
+  "Changelog": "适配国服6.45h",
+  "AcceptsFeedback": true
+}

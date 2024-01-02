@@ -1,0 +1,16 @@
+{
+  "Author": "Asvel",
+  "Name": "Literal Map Link",
+  "InternalName": "LiteralMapLink",
+  "AssemblyVersion": "1.1.3.1",
+  "Description": "当您发布游戏内聊天消息时，将地图坐标文字转换为可交互的地图链接",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Asvel/ffxiv-literal-map-link",
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "将地图坐标文字转换为可交互的地图链接",
+  "AcceptsFeedback": true
+}
