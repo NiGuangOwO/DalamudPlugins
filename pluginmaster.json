@@ -1,23 +1,5 @@
 [
     {
-        "Author": "Asvel",
-        "Name": "Literal Map Link",
-        "Punchline": "将地图坐标文字转换为可交互的地图链接",
-        "Description": "当您发布游戏内聊天消息时，将地图坐标文字转换为可交互的地图链接",
-        "InternalName": "LiteralMapLink",
-        "AssemblyVersion": "1.1.3.1",
-        "RepoUrl": "https://github.com/Asvel/ffxiv-literal-map-link",
-        "ApplicableVersion": "any",
-        "DalamudApiLevel": 8,
-        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LiteralMapLink/latest.zip",
-        "IsHide": false,
-        "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LiteralMapLink/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LiteralMapLink/latest.zip",
-        "DownloadCount": 0,
-        "LastUpdate": "1709696160"
-    },
-    {
         "Author": "veyn",
         "Name": "Boss Mod",
         "Punchline": "大脑按摩用的",
@@ -40,7 +22,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossMod/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossMod/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1709696160"
+        "LastUpdate": "1709791881"
     },
     {
         "Author": "NiGuangOwO",
@@ -59,23 +41,23 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1709696160"
+        "LastUpdate": "1709791881"
     },
     {
         "Author": "Taurenkey (Puni.sh), NiGuangOwO (本地化&功能维护)",
         "Name": "Pandora's Box",
         "Punchline": "你敢打开潘多拉的盒子吗？（在线安装 Only）",
-        "Description": "Pandora是一个改善游戏体验和一些功能调整的集合",
-        "Changelog": "新增无人岛自动切换收获模式、捕鱼人自动开启收藏品采集\n不要在官方Discord提问题，官方开发者不做国服适配工作，不要再让我看到有笨比去提问\n遇到漏翻译的文本请用各种方式告诉我",
+        "Description": "Pandora's Box是一个改善游戏体验和一些功能调整的集合",
+        "Changelog": "API9\n不要在官方Discord提问题，官方开发者不做国服适配工作，不要再让我看到有笨比去提问\n遇到漏翻译的文本请用各种方式告诉我",
         "InternalName": "PandorasBox",
-        "AssemblyVersion": "1.5.4.3",
+        "AssemblyVersion": "1.5.4.7",
         "RepoUrl": "https://github.com/NiGuangOwO/PandorasBox",
         "ApplicableVersion": "any",
         "Tags": [
             "punish",
             "plugin"
         ],
-        "DalamudApiLevel": 8,
+        "DalamudApiLevel": 9,
         "IconUrl": "https://love.puni.sh/resources/pandora.png",
         "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PandorasBox/latest.zip",
         "IsHide": false,
@@ -83,7 +65,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PandorasBox/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PandorasBox/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1709696160"
+        "LastUpdate": "1709791882"
     },
     {
         "Author": "53m1k0l0n/Gidedin (Puni.sh)/NiGuangOwO (本地化)",
@@ -109,7 +91,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LazyLoot/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LazyLoot/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1709696160"
+        "LastUpdate": "1709791881"
     },
     {
         "Author": "Liza Carvelli (Puni.sh)/ NiGuangOwO (本地化)",
@@ -134,7 +116,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Palace Pal/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Palace Pal/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1709696160"
+        "LastUpdate": "1709791881"
     },
     {
         "Author": "NightmareXIV, NiGuangOwO (本地化)",
@@ -153,6 +135,6 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1709696160"
+        "LastUpdate": "1709791881"
     }
 ]
