@@ -12,12 +12,6 @@
 https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json
 ```
 
-### API9
-
-```
-https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/API9/pluginmaster.json
-```
-
 ## 仓库插件列表
 
 | 插件名称                    | 介绍                                                                                            | 作者                                                                               | 本地化维护                                  | 汉化 | 插件更新状态 |
