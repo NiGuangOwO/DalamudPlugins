@@ -22,7 +22,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossMod/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossMod/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1709903991"
+        "LastUpdate": "1709963758"
     },
     {
         "Author": "NiGuangOwO",
@@ -41,7 +41,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1709903991"
+        "LastUpdate": "1709963758"
     },
     {
         "Author": "Taurenkey (Puni.sh), NiGuangOwO (本地化&功能维护)",
@@ -65,16 +65,16 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PandorasBox/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PandorasBox/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1709903991"
+        "LastUpdate": "1709963758"
     },
     {
         "Author": "53m1k0l0n/Gidedin (Puni.sh)/NiGuangOwO (本地化)",
         "Name": "LazyLoot",
         "Punchline": "一(自)键(动)Roll点用的 (在线安装Only)",
         "Description": "带有各种参数的Roll点命令 need | greed | pass\n聊天和Toast输出以及Roll点延迟。",
-        "Changelog": "",
+        "Changelog": "API9",
         "InternalName": "LazyLoot",
-        "AssemblyVersion": "5.2.0.4",
+        "AssemblyVersion": "5.2.0.5",
         "RepoUrl": "https://github.com/PunishXIV/LazyLoot",
         "ApplicableVersion": "any",
         "Tags": [
@@ -83,7 +83,7 @@
             "utility",
             "other"
         ],
-        "DalamudApiLevel": 8,
+        "DalamudApiLevel": 9,
         "IconUrl": "https://love.puni.sh/resources/lazyloot.png",
         "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LazyLoot/latest.zip",
         "IsHide": false,
@@ -91,7 +91,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LazyLoot/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LazyLoot/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1709903991"
+        "LastUpdate": "1709963758"
     },
     {
         "Author": "Liza Carvelli (Puni.sh)/ NiGuangOwO (本地化)",
@@ -116,7 +116,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Palace Pal/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Palace Pal/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1709903991"
+        "LastUpdate": "1709963758"
     },
     {
         "Author": "NightmareXIV, NiGuangOwO (本地化)",
@@ -135,6 +135,6 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1709903991"
+        "LastUpdate": "1709963758"
     }
 ]
