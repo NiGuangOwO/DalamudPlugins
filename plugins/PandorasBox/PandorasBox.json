@@ -2,7 +2,7 @@
   "Author": "Taurenkey (Puni.sh), NiGuangOwO (本地化&功能维护)",
   "Name": "Pandora's Box",
   "InternalName": "PandorasBox",
-  "AssemblyVersion": "1.5.4.10",
+  "AssemblyVersion": "1.5.4.11",
   "Description": "Pandora's Box是一个改善游戏体验和一些功能调整的集合\n闲鱼倒卖的家里人都死了，把仓库地址打码然后赚个信息差的，可真是牛逼",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/NiGuangOwO/PandorasBox",
@@ -17,6 +17,6 @@
   "LoadPriority": 0,
   "IconUrl": "https://love.puni.sh/resources/pandora.png",
   "Punchline": "你敢打开潘多拉的盒子吗？（在线安装 Only）",
-  "Changelog": "修复自动重登\n不要在官方Discord提问题，官方开发者不做国服适配工作，不要再让我看到有笨比去提问\n遇到漏翻译的文本请用各种方式告诉我",
+  "Changelog": "修复快速查房\n不要在官方Discord提问题，官方开发者不做国服适配工作，不要再让我看到有笨比去提问\n遇到漏翻译的文本请用各种方式告诉我",
   "AcceptsFeedback": true
 }
