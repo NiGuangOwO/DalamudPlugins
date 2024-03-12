@@ -4,12 +4,11 @@
         "Name": "Boss Mod",
         "Punchline": "大脑按摩用的",
         "Description": "来自y佬维护版编译，仅保留画图，还不快说谢谢y佬",
-        "Changelog": "适配国服6.45h",
         "InternalName": "BossMod",
-        "AssemblyVersion": "0.0.0.115",
+        "AssemblyVersion": "0.0.0.140",
         "RepoUrl": "https://github.com/awgil/ffxiv_bossmod",
-        "ApplicableVersion": "2023.12.07.0000.0000",
-        "DalamudApiLevel": 8,
+        "ApplicableVersion": "any",
+        "DalamudApiLevel": 9,
         "IconUrl": "https://raw.githubusercontent.com/awgil/ffxiv_bossmod/f4efcb5dc279d21ee16185d5a9f2d09a3a2bc58b/Data/icon.png",
         "ImageUrls": [
             "https://raw.githubusercontent.com/awgil/ffxiv_bossmod/master/Data/image1.png",
@@ -22,7 +21,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossMod/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossMod/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1709963758"
+        "LastUpdate": "1709990061"
     },
     {
         "Author": "NiGuangOwO",
@@ -41,7 +40,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1709963758"
+        "LastUpdate": "1709990061"
     },
     {
         "Author": "Taurenkey (Puni.sh), NiGuangOwO (本地化&功能维护)",
@@ -65,7 +64,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PandorasBox/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PandorasBox/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1709963758"
+        "LastUpdate": "1709990061"
     },
     {
         "Author": "53m1k0l0n/Gidedin (Puni.sh)/NiGuangOwO (本地化)",
@@ -91,7 +90,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LazyLoot/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LazyLoot/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1709963758"
+        "LastUpdate": "1709990061"
     },
     {
         "Author": "Liza Carvelli (Puni.sh)/ NiGuangOwO (本地化)",
@@ -116,7 +115,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Palace Pal/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Palace Pal/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1709963758"
+        "LastUpdate": "1709990061"
     },
     {
         "Author": "NightmareXIV, NiGuangOwO (本地化)",
@@ -135,6 +134,6 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1709963758"
+        "LastUpdate": "1709990061"
     }
 ]
