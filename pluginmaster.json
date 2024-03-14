@@ -1,5 +1,43 @@
 [
     {
+        "Author": "NiGuangOwO",
+        "Name": "FuckAnimationLock (API9)",
+        "Punchline": "改动画锁，优化循环手感，但并不能把Logs从蓝色变成金色，懂？",
+        "Description": "打本我就要三插，闲鱼小店死个妈\n某些绿玩能不能别洗了，底层屎山加垃圾服务器延迟导致手感稀烂，自己玩起来不觉得膈应吗？\n我开你别劝，我劝你也开，开了更流畅，兄弟们开",
+        "Changelog": "打断LB硬直换成新的更暴力的方法，读完条直接可以移动。PVP区域不生效",
+        "InternalName": "FuckAnimationLock",
+        "AssemblyVersion": "2.5.0.3",
+        "RepoUrl": "https://github.com/NiGuangOwO/FuckAnimationLock",
+        "ApplicableVersion": "any",
+        "DalamudApiLevel": 9,
+        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1710393095"
+    },
+    {
+        "Author": "NightmareXIV, NiGuangOwO (本地化)",
+        "Name": "Lifestream",
+        "Punchline": "一个加速城内以太水晶传送和跨服的插件",
+        "Description": "- 一键传送到任何服务器或城内以太水晶目的地\n- 点击区域地图内的以太之光传送到它们",
+        "InternalName": "Lifestream",
+        "AssemblyVersion": "2.0.1.6",
+        "RepoUrl": "https://github.com/NightmareXIV/Lifestream",
+        "ApplicableVersion": "any",
+        "DalamudApiLevel": 9,
+        "IconUrl": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/icons/lifestream.png",
+        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1710393095"
+    },
+    {
         "Author": "veyn",
         "Name": "Boss Mod",
         "Punchline": "大脑按摩用的",
@@ -21,50 +59,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossMod/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossMod/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1710338475"
-    },
-    {
-        "Author": "NiGuangOwO",
-        "Name": "FuckAnimationLock (API9)",
-        "Punchline": "改动画锁，优化循环手感，但并不能把Logs从蓝色变成金色，懂？",
-        "Description": "打本我就要三插，闲鱼小店死个妈\n某些绿玩能不能别洗了，底层屎山加垃圾服务器延迟导致手感稀烂，自己玩起来不觉得膈应吗？\n我开你别劝，我劝你也开，开了更流畅，兄弟们开",
-        "Changelog": "打断LB硬直换成新的更暴力的方法，读完条直接可以移动。PVP区域不生效",
-        "InternalName": "FuckAnimationLock",
-        "AssemblyVersion": "2.5.0.3",
-        "RepoUrl": "https://github.com/NiGuangOwO/FuckAnimationLock",
-        "ApplicableVersion": "any",
-        "DalamudApiLevel": 9,
-        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
-        "IsHide": false,
-        "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
-        "DownloadCount": 0,
-        "LastUpdate": "1710338475"
-    },
-    {
-        "Author": "Taurenkey (Puni.sh), NiGuangOwO (本地化&功能维护)",
-        "Name": "Pandora's Box",
-        "Punchline": "你敢打开潘多拉的盒子吗？（在线安装 Only）",
-        "Description": "Pandora's Box是一个改善游戏体验和一些功能调整的集合\n闲鱼倒卖的家里人都死了，把仓库地址打码然后赚个信息差的，可真是牛逼",
-        "Changelog": "修复快速查房\n不要在官方Discord提问题，官方开发者不做国服适配工作，不要再让我看到有笨比去提问\n遇到漏翻译的文本请用各种方式告诉我",
-        "InternalName": "PandorasBox",
-        "AssemblyVersion": "1.5.4.12",
-        "RepoUrl": "https://github.com/NiGuangOwO/PandorasBox",
-        "ApplicableVersion": "any",
-        "Tags": [
-            "punish",
-            "plugin"
-        ],
-        "DalamudApiLevel": 9,
-        "IconUrl": "https://love.puni.sh/resources/pandora.png",
-        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PandorasBox/latest.zip",
-        "IsHide": false,
-        "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PandorasBox/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PandorasBox/latest.zip",
-        "DownloadCount": 0,
-        "LastUpdate": "1710338475"
+        "LastUpdate": "1710393095"
     },
     {
         "Author": "53m1k0l0n/Gidedin (Puni.sh)/NiGuangOwO (本地化)",
@@ -90,7 +85,31 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LazyLoot/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LazyLoot/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1710338475"
+        "LastUpdate": "1710393095"
+    },
+    {
+        "Author": "Taurenkey (Puni.sh), NiGuangOwO (本地化&功能维护)",
+        "Name": "Pandora's Box",
+        "Punchline": "你敢打开潘多拉的盒子吗？（在线安装 Only）",
+        "Description": "Pandora's Box是一个改善游戏体验和一些功能调整的集合\n闲鱼倒卖的家里人都死了，把仓库地址打码然后赚个信息差的，可真是牛逼",
+        "Changelog": "修复快速查房\n不要在官方Discord提问题，官方开发者不做国服适配工作，不要再让我看到有笨比去提问\n遇到漏翻译的文本请用各种方式告诉我",
+        "InternalName": "PandorasBox",
+        "AssemblyVersion": "1.5.4.13",
+        "RepoUrl": "https://github.com/NiGuangOwO/PandorasBox",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "punish",
+            "plugin"
+        ],
+        "DalamudApiLevel": 9,
+        "IconUrl": "https://love.puni.sh/resources/pandora.png",
+        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PandorasBox/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PandorasBox/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PandorasBox/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1710393095"
     },
     {
         "Author": "Liza Carvelli (Puni.sh)/ NiGuangOwO (本地化)",
@@ -115,25 +134,6 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Palace Pal/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Palace Pal/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1710338475"
-    },
-    {
-        "Author": "NightmareXIV, NiGuangOwO (本地化)",
-        "Name": "Lifestream",
-        "Punchline": "一个加速城内以太水晶传送和跨服的插件",
-        "Description": "- 一键传送到任何服务器或城内以太水晶目的地\n- 点击区域地图内的以太之光传送到它们",
-        "InternalName": "Lifestream",
-        "AssemblyVersion": "2.0.1.6",
-        "RepoUrl": "https://github.com/NightmareXIV/Lifestream",
-        "ApplicableVersion": "any",
-        "DalamudApiLevel": 9,
-        "IconUrl": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/icons/lifestream.png",
-        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
-        "IsHide": false,
-        "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
-        "DownloadCount": 0,
-        "LastUpdate": "1710338475"
+        "LastUpdate": "1710393095"
     }
 ]
