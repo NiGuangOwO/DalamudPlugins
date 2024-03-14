@@ -16,7 +16,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1710393095"
+        "LastUpdate": "1710434582"
     },
     {
         "Author": "NightmareXIV, NiGuangOwO (本地化)",
@@ -35,7 +35,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1710393095"
+        "LastUpdate": "1710434582"
     },
     {
         "Author": "veyn",
@@ -59,7 +59,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossMod/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossMod/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1710393095"
+        "LastUpdate": "1710434582"
     },
     {
         "Author": "53m1k0l0n/Gidedin (Puni.sh)/NiGuangOwO (本地化)",
@@ -85,7 +85,32 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LazyLoot/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LazyLoot/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1710393095"
+        "LastUpdate": "1710434582"
+    },
+    {
+        "Author": "Liza Carvelli (Puni.sh)/ NiGuangOwO (本地化)",
+        "Name": "Palace Pal",
+        "Punchline": "在死宫、天宫和正统优雷卡显示潜在陷阱和埋藏的宝藏。",
+        "Description": "在死宫、天宫和正统优雷卡显示潜在陷阱和埋藏的宝藏。\n\n这个插件需要Splatoon才能在屏幕上渲染绘图。",
+        "InternalName": "PalacePal",
+        "AssemblyVersion": "4.9.0.0",
+        "RepoUrl": "https://github.com/NiGuangOwO/PalacePal",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "potd",
+            "palace",
+            "hoh",
+            "splatoon"
+        ],
+        "DalamudApiLevel": 9,
+        "IconUrl": "https://love.puni.sh/resources/palacepal.png",
+        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PalacePal/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PalacePal/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PalacePal/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1710434582"
     },
     {
         "Author": "Taurenkey (Puni.sh), NiGuangOwO (本地化&功能维护)",
@@ -109,31 +134,6 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PandorasBox/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PandorasBox/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1710393095"
-    },
-    {
-        "Author": "Liza Carvelli (Puni.sh)/ NiGuangOwO (本地化)",
-        "Name": "Palace Pal",
-        "Punchline": "在死宫、天宫和正统优雷卡显示潜在陷阱和埋藏的宝藏。",
-        "Description": "在死宫、天宫和正统优雷卡显示潜在陷阱和埋藏的宝藏。\n\n这个插件需要Splatoon才能在屏幕上渲染绘图。",
-        "InternalName": "Palace Pal",
-        "AssemblyVersion": "4.8.0.3",
-        "RepoUrl": "https://github.com/PunishXIV/PalacePal",
-        "ApplicableVersion": "any",
-        "Tags": [
-            "potd",
-            "palace",
-            "hoh",
-            "splatoon"
-        ],
-        "DalamudApiLevel": 8,
-        "IconUrl": "https://love.puni.sh/resources/palacepal.png",
-        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Palace Pal/latest.zip",
-        "IsHide": false,
-        "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Palace Pal/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Palace Pal/latest.zip",
-        "DownloadCount": 0,
-        "LastUpdate": "1710393095"
+        "LastUpdate": "1710434582"
     }
 ]
