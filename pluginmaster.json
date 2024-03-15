@@ -16,7 +16,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1710434582"
+        "LastUpdate": "1710464243"
     },
     {
         "Author": "NightmareXIV, NiGuangOwO (本地化)",
@@ -35,7 +35,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1710434582"
+        "LastUpdate": "1710464243"
     },
     {
         "Author": "veyn",
@@ -59,7 +59,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossMod/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossMod/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1710434582"
+        "LastUpdate": "1710464243"
     },
     {
         "Author": "53m1k0l0n/Gidedin (Puni.sh)/NiGuangOwO (本地化)",
@@ -68,7 +68,7 @@
         "Description": "带有各种参数的Roll点命令 need | greed | pass\n聊天和Toast输出以及Roll点延迟。",
         "Changelog": "API9",
         "InternalName": "LazyLoot",
-        "AssemblyVersion": "5.2.0.5",
+        "AssemblyVersion": "5.2.0.6",
         "RepoUrl": "https://github.com/PunishXIV/LazyLoot",
         "ApplicableVersion": "any",
         "Tags": [
@@ -85,7 +85,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LazyLoot/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LazyLoot/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1710434582"
+        "LastUpdate": "1710464243"
     },
     {
         "Author": "Liza Carvelli (Puni.sh)/ NiGuangOwO (本地化)",
@@ -110,7 +110,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PalacePal/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PalacePal/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1710434582"
+        "LastUpdate": "1710464243"
     },
     {
         "Author": "Taurenkey (Puni.sh), NiGuangOwO (本地化&功能维护)",
@@ -134,6 +134,6 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PandorasBox/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PandorasBox/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1710434582"
+        "LastUpdate": "1710464243"
     }
 ]
