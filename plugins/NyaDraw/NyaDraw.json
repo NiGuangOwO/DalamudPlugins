@@ -1,0 +1,22 @@
+{
+  "Author": "Small_Miao, NiGuangOwO (moewcorp)",
+  "Name": "NyaDraw(beta)",
+  "InternalName": "NyaDraw",
+  "AssemblyVersion": "1.0.3.5",
+  "Description": "下一代小画家",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "vfx",
+    "omen",
+    "spl"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/plugins/NyaDraw/NyaDraw.png",
+  "Punchline": "下一代小画家",
+  "Changelog": "尝试修复双开游戏闪退问题",
+  "AcceptsFeedback": true
+}

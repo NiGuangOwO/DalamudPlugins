@@ -1,0 +1,24 @@
+{
+  "Author": "Jukkales / NiGuangOwO(适配&汉化)",
+  "Name": "HoardFarm",
+  "InternalName": "HoardFarm",
+  "AssemblyVersion": "1.5.2.3",
+  "Description": "来帮助寻找地牢宝藏的插件（…为你）",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "hoard",
+    "farm",
+    "help",
+    "hoarder",
+    "accursed",
+    "achievement"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://github.com/Jukkales/HoardFarm/raw/main/icon.png",
+  "Punchline": "成为一个被诅咒的贮藏者！",
+  "AcceptsFeedback": true
+}

@@ -1,0 +1,24 @@
+{
+  "Author": "53m1k0l0n/Gidedin (Puni.sh)/NiGuangOwO (本地化)",
+  "Name": "LazyLoot",
+  "InternalName": "LazyLoot",
+  "AssemblyVersion": "5.2.0.6",
+  "Description": "带有各种参数的Roll点命令 need | greed | pass\n聊天和Toast输出以及Roll点延迟。",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/PunishXIV/LazyLoot",
+  "Tags": [
+    "plugin",
+    "loot",
+    "utility",
+    "other"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://love.puni.sh/resources/lazyloot.png",
+  "Punchline": "一(自)键(动)Roll点用的 (在线安装Only)",
+  "Changelog": "API9",
+  "AcceptsFeedback": true
+}

@@ -1,0 +1,23 @@
+name: Regenerate PluginMaster
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+concurrency: regenerate
+jobs:
+  generate:
+    name: Regenerate PluginMaster
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v2
+        with:
+          python-version: "3.8"
+      - uses: actions/checkout@v3
+      - name: Generate PluginMaster
+        run: python generate_pluginmaster.py
+      - uses: EndBug/add-and-commit@v7
+        with:
+          author_name: GitHub Action
+          author_email: github-actions[bot]@users.noreply.github.com
+          message: Regenerate PluginMaster
