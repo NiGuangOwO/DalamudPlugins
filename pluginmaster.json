@@ -1,50 +1,156 @@
 [
     {
-        "Author": "veyn",
-        "Name": "Boss Mod",
-        "Punchline": "大脑按摩用的(在线安装Only)",
-        "Description": "来自y佬维护版编译，仅保留画图，还不快说谢谢y佬",
-        "InternalName": "BossMod",
-        "AssemblyVersion": "0.0.0.156",
-        "RepoUrl": "https://github.com/awgil/ffxiv_bossmod",
+        "Author": "NightmareXIV / NiGuangOwO（汉化&适配）",
+        "Name": "Lifestream",
+        "Punchline": "一个加速城内以太水晶传送和跨服的插件",
+        "Description": "- 一键传送到任何服务器或城内以太水晶目的地\n- 点击地图内的以太之光传送到它们",
+        "Changelog": "修复地址簿编辑页中服务器没有国服的问题",
+        "InternalName": "Lifestream",
+        "AssemblyVersion": "2.1.0.8",
+        "RepoUrl": "https://github.com/NightmareXIV/Lifestream",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 9,
-        "IconUrl": "https://raw.githubusercontent.com/awgil/ffxiv_bossmod/f4efcb5dc279d21ee16185d5a9f2d09a3a2bc58b/Data/icon.png",
-        "ImageUrls": [
-            "https://raw.githubusercontent.com/awgil/ffxiv_bossmod/master/Data/image1.png",
-            "https://raw.githubusercontent.com/awgil/ffxiv_bossmod/master/Data/image2.png",
-            "https://raw.githubusercontent.com/awgil/ffxiv_bossmod/master/Data/image3.png"
-        ],
-        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossMod/latest.zip",
+        "IconUrl": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/icons/lifestream.png",
+        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossMod/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossMod/latest.zip",
+        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1721559054"
+        "LastUpdate": "1721827268"
+    },
+    {
+        "Author": "Small_Miao, NiGuangOwO (moewcorp)",
+        "Name": "NyaDraw(APIX)",
+        "Punchline": "下一代小画家",
+        "Description": "下一代小画家",
+        "Changelog": "AAC Light-heavyweight M2绘制完成",
+        "InternalName": "NyaDraw(APIX)",
+        "AssemblyVersion": "1.0.4.3",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "vfx",
+            "omen",
+            "spl"
+        ],
+        "DalamudApiLevel": 10,
+        "IconUrl": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/plugins/NyaDraw/NyaDraw.png",
+        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDraw(APIX)/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDraw(APIX)/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDraw(APIX)/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1721827268"
+    },
+    {
+        "Author": "Small_Miao, NiGuangOwO (moewcorp)",
+        "Name": "NyaDraw(beta)",
+        "Punchline": "下一代小画家",
+        "Description": "下一代小画家",
+        "Changelog": "尝试修复双开游戏闪退问题",
+        "InternalName": "NyaDraw",
+        "AssemblyVersion": "1.0.3.5",
+        "TestingAssemblyVersion": "1.0.3.3",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "vfx",
+            "omen",
+            "spl"
+        ],
+        "DalamudApiLevel": 9,
+        "IconUrl": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/plugins/NyaDraw/NyaDraw.png",
+        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDraw/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDraw/testing/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDraw/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1721827268"
     },
     {
         "Author": "NiGuangOwO",
-        "Name": "FuckAnimationLock (apiX)",
+        "Name": "Dont Ban My Plugin",
+        "Punchline": "放出被禁用的插件（本地加载无效）",
+        "Description": "我才不要当绿玩",
+        "InternalName": "DontBanMyPlugin",
+        "AssemblyVersion": "0.0.0.3",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "unban",
+            "plugin"
+        ],
+        "DalamudApiLevel": 9,
+        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/DontBanMyPlugin/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/DontBanMyPlugin/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/DontBanMyPlugin/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1721827268"
+    },
+    {
+        "Author": "gamous",
+        "Name": "Chameleon",
+        "Punchline": "Real fakename in memory",
+        "Description": "Real fakename in memory",
+        "InternalName": "Chameleon",
+        "AssemblyVersion": "1.0.0.0",
+        "RepoUrl": "https://github.com/moewcorp/Chameleon",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "Fake"
+        ],
+        "DalamudApiLevel": 9,
+        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Chameleon/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Chameleon/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Chameleon/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1721827268"
+    },
+    {
+        "Author": "NiGuangOwO",
+        "Name": "FuckAnimationLock",
         "Punchline": "修改技能动画锁，优化循环手感，但并不能把Logs从蓝色变成金色 (在线安装Only)",
         "Description": "打本我就要三插，闲鱼小店死个妈\n\n某些绿玩能不能别洗了，底层屎山加垃圾服务器延迟导致手感稀烂，自己玩起来不觉得膈应吗？\n我开你别劝，我劝你也开，开了更流畅，兄弟们开",
-        "Changelog": "apiXXXXXXXXXXXXXXX",
-        "InternalName": "FuckAnimationLock (apiX)",
-        "AssemblyVersion": "2.5.2.0",
+        "Changelog": ".NET 8",
+        "InternalName": "FuckAnimationLock",
+        "AssemblyVersion": "2.5.1.0",
         "RepoUrl": "https://github.com/NiGuangOwO/FuckAnimationLock",
         "ApplicableVersion": "any",
         "Tags": [
-            "fuck",
-            "AnimationLock"
+            "fuck"
         ],
-        "DalamudApiLevel": 10,
-        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock (apiX)/latest.zip",
+        "DalamudApiLevel": 9,
+        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock (apiX)/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock (apiX)/latest.zip",
+        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1721559054"
+        "LastUpdate": "1721827268"
+    },
+    {
+        "Author": "NiGuangOwO",
+        "Name": "SkipLogo",
+        "Punchline": "跳过游戏启动的黑屏Logo阶段，安装即生效",
+        "Description": "别浪费我时间",
+        "InternalName": "SkipLogo",
+        "AssemblyVersion": "0.0.0.1",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "skip"
+        ],
+        "DalamudApiLevel": 9,
+        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/SkipLogo/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/SkipLogo/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/SkipLogo/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1721827268"
     },
     {
         "Author": "53m1k0l0n/Gidedin (Puni.sh)/NiGuangOwO (本地化)",
@@ -70,48 +176,72 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LazyLoot/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LazyLoot/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1721559054"
+        "LastUpdate": "1721827268"
     },
     {
         "Author": "NiGuangOwO",
-        "Name": "Dont Ban My Plugin",
-        "Punchline": "放出被禁用的插件（本地加载无效）",
-        "Description": "我才不要当绿玩",
-        "InternalName": "DontBanMyPlugin",
-        "AssemblyVersion": "0.0.0.3",
+        "Name": "FuckAnimationLock (apiX)",
+        "Punchline": "修改技能动画锁，优化循环手感，但并不能把Logs从蓝色变成金色 (在线安装Only)",
+        "Description": "打本我就要三插，闲鱼小店死个妈\n\n某些绿玩能不能别洗了，底层屎山加垃圾服务器延迟导致手感稀烂，自己玩起来不觉得膈应吗？\n我开你别劝，我劝你也开，开了更流畅，兄弟们开",
+        "Changelog": "apiXXXXXXXXXXXXXXX",
+        "InternalName": "FuckAnimationLock (apiX)",
+        "AssemblyVersion": "2.5.2.0",
+        "RepoUrl": "https://github.com/NiGuangOwO/FuckAnimationLock",
         "ApplicableVersion": "any",
         "Tags": [
-            "unban",
-            "plugin"
+            "fuck",
+            "AnimationLock"
         ],
-        "DalamudApiLevel": 9,
-        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/DontBanMyPlugin/latest.zip",
+        "DalamudApiLevel": 10,
+        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock (apiX)/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/DontBanMyPlugin/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/DontBanMyPlugin/latest.zip",
+        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock (apiX)/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock (apiX)/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1721559054"
+        "LastUpdate": "1721827268"
     },
     {
-        "Author": "NiGuangOwO",
-        "Name": "SkipLogo",
-        "Punchline": "跳过游戏启动的黑屏Logo阶段，安装即生效",
-        "Description": "别浪费我时间",
-        "InternalName": "SkipLogo",
-        "AssemblyVersion": "0.0.0.1",
+        "Author": "veyn",
+        "Name": "Boss Mod",
+        "Punchline": "大脑按摩用的(在线安装Only)",
+        "Description": "来自y佬维护版编译，仅保留画图，还不快说谢谢y佬",
+        "InternalName": "BossMod",
+        "AssemblyVersion": "0.0.0.156",
+        "RepoUrl": "https://github.com/awgil/ffxiv_bossmod",
         "ApplicableVersion": "any",
-        "Tags": [
-            "skip"
-        ],
         "DalamudApiLevel": 9,
-        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/SkipLogo/latest.zip",
+        "IconUrl": "https://raw.githubusercontent.com/awgil/ffxiv_bossmod/f4efcb5dc279d21ee16185d5a9f2d09a3a2bc58b/Data/icon.png",
+        "ImageUrls": [
+            "https://raw.githubusercontent.com/awgil/ffxiv_bossmod/master/Data/image1.png",
+            "https://raw.githubusercontent.com/awgil/ffxiv_bossmod/master/Data/image2.png",
+            "https://raw.githubusercontent.com/awgil/ffxiv_bossmod/master/Data/image3.png"
+        ],
+        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossMod/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/SkipLogo/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/SkipLogo/latest.zip",
+        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossMod/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossMod/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1721559054"
+        "LastUpdate": "1721827268"
+    },
+    {
+        "Author": "kawaii / 适配汉化-Yarukon、NiGuangOwO(moewcorp)",
+        "Name": "Hyperborea",
+        "Punchline": "如果我们在陌迪翁监狱拍照呢？",
+        "Description": "在相对安全的情况下装载和探索任何区域，主要用于在现在无法进入的位置使用GPoses。",
+        "InternalName": "Hyperborea",
+        "AssemblyVersion": "1.0.0.9",
+        "RepoUrl": "https://github.com/kawaii/Hyperborea",
+        "ApplicableVersion": "2024.03.28.0000.0000",
+        "DalamudApiLevel": 9,
+        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Hyperborea/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Hyperborea/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Hyperborea/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1721827268"
     },
     {
         "Author": "0x, NiGuangOwO",
@@ -132,25 +262,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LuckyStar/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LuckyStar/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1721559054"
-    },
-    {
-        "Author": "kawaii / 适配汉化-Yarukon、NiGuangOwO(moewcorp)",
-        "Name": "Hyperborea",
-        "Punchline": "如果我们在陌迪翁监狱拍照呢？",
-        "Description": "在相对安全的情况下装载和探索任何区域，主要用于在现在无法进入的位置使用GPoses。",
-        "InternalName": "Hyperborea",
-        "AssemblyVersion": "1.0.0.9",
-        "RepoUrl": "https://github.com/kawaii/Hyperborea",
-        "ApplicableVersion": "2024.03.28.0000.0000",
-        "DalamudApiLevel": 9,
-        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Hyperborea/latest.zip",
-        "IsHide": false,
-        "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Hyperborea/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Hyperborea/latest.zip",
-        "DownloadCount": 0,
-        "LastUpdate": "1721559054"
+        "LastUpdate": "1721827268"
     },
     {
         "Author": "Taurenkey (Puni.sh) / NiGuangOwO (本地化&功能维护)",
@@ -174,97 +286,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PandorasBox/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PandorasBox/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1721559054"
-    },
-    {
-        "Author": "Small_Miao, NiGuangOwO (moewcorp)",
-        "Name": "NyaDraw(beta)",
-        "Punchline": "下一代小画家",
-        "Description": "下一代小画家",
-        "Changelog": "尝试修复双开游戏闪退问题",
-        "InternalName": "NyaDraw",
-        "AssemblyVersion": "1.0.3.5",
-        "TestingAssemblyVersion": "1.0.3.3",
-        "ApplicableVersion": "any",
-        "Tags": [
-            "vfx",
-            "omen",
-            "spl"
-        ],
-        "DalamudApiLevel": 9,
-        "IconUrl": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/plugins/NyaDraw/NyaDraw.png",
-        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDraw/latest.zip",
-        "IsHide": false,
-        "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDraw/testing/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDraw/latest.zip",
-        "DownloadCount": 0,
-        "LastUpdate": "1721559054"
-    },
-    {
-        "Author": "Small_Miao, NiGuangOwO (moewcorp)",
-        "Name": "NyaDraw(APIX)",
-        "Punchline": "下一代小画家",
-        "Description": "下一代小画家",
-        "Changelog": "ZoraalJa绘制完成\n修复了一处可能崩溃游戏的bug",
-        "InternalName": "NyaDraw(APIX)",
-        "AssemblyVersion": "1.0.4.2",
-        "ApplicableVersion": "any",
-        "Tags": [
-            "vfx",
-            "omen",
-            "spl"
-        ],
-        "DalamudApiLevel": 10,
-        "IconUrl": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/plugins/NyaDraw/NyaDraw.png",
-        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDraw(APIX)/latest.zip",
-        "IsHide": false,
-        "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDraw(APIX)/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDraw(APIX)/latest.zip",
-        "DownloadCount": 0,
-        "LastUpdate": "1721559054"
-    },
-    {
-        "Author": "gamous",
-        "Name": "Chameleon",
-        "Punchline": "Real fakename in memory",
-        "Description": "Real fakename in memory",
-        "InternalName": "Chameleon",
-        "AssemblyVersion": "1.0.0.0",
-        "RepoUrl": "https://github.com/moewcorp/Chameleon",
-        "ApplicableVersion": "any",
-        "Tags": [
-            "Fake"
-        ],
-        "DalamudApiLevel": 9,
-        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Chameleon/latest.zip",
-        "IsHide": false,
-        "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Chameleon/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Chameleon/latest.zip",
-        "DownloadCount": 0,
-        "LastUpdate": "1721559054"
-    },
-    {
-        "Author": "NightmareXIV / NiGuangOwO（汉化&适配）",
-        "Name": "Lifestream",
-        "Punchline": "一个加速城内以太水晶传送和跨服的插件",
-        "Description": "- 一键传送到任何服务器或城内以太水晶目的地\n- 点击地图内的以太之光传送到它们",
-        "Changelog": "修复地址簿编辑页中服务器没有国服的问题",
-        "InternalName": "Lifestream",
-        "AssemblyVersion": "2.1.0.8",
-        "RepoUrl": "https://github.com/NightmareXIV/Lifestream",
-        "ApplicableVersion": "any",
-        "DalamudApiLevel": 9,
-        "IconUrl": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/icons/lifestream.png",
-        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
-        "IsHide": false,
-        "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
-        "DownloadCount": 0,
-        "LastUpdate": "1721559054"
+        "LastUpdate": "1721827268"
     },
     {
         "Author": "Liza Carvelli (Puni.sh)/ NiGuangOwO (本地化)",
@@ -289,7 +311,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PalacePal/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PalacePal/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1721559054"
+        "LastUpdate": "1721827268"
     },
     {
         "Author": "Jukkales / NiGuangOwO(适配&汉化)",
@@ -315,28 +337,6 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/HoardFarm/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/HoardFarm/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1721559054"
-    },
-    {
-        "Author": "NiGuangOwO",
-        "Name": "FuckAnimationLock",
-        "Punchline": "修改技能动画锁，优化循环手感，但并不能把Logs从蓝色变成金色 (在线安装Only)",
-        "Description": "打本我就要三插，闲鱼小店死个妈\n\n某些绿玩能不能别洗了，底层屎山加垃圾服务器延迟导致手感稀烂，自己玩起来不觉得膈应吗？\n我开你别劝，我劝你也开，开了更流畅，兄弟们开",
-        "Changelog": ".NET 8",
-        "InternalName": "FuckAnimationLock",
-        "AssemblyVersion": "2.5.1.0",
-        "RepoUrl": "https://github.com/NiGuangOwO/FuckAnimationLock",
-        "ApplicableVersion": "any",
-        "Tags": [
-            "fuck"
-        ],
-        "DalamudApiLevel": 9,
-        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
-        "IsHide": false,
-        "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
-        "DownloadCount": 0,
-        "LastUpdate": "1721559054"
+        "LastUpdate": "1721827268"
     }
 ]
