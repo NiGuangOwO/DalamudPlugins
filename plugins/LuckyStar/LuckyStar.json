@@ -1,0 +1,19 @@
+{
+  "Author": "0x, NiGuangOwO",
+  "Name": "LuckyStar",
+  "InternalName": "LuckyStar",
+  "AssemblyVersion": "0.0.0.2",
+  "Description": "woc！触发组！",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "RankS"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "自动农怪（需安装vnavmesh及自动循环插件）",
+  "Changelog": "修复月球数据错误",
+  "AcceptsFeedback": true
+}
