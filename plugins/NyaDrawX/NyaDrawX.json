@@ -2,7 +2,7 @@
   "Author": "NiGuangOwO, Small_Miao (moewcorp)",
   "Name": "NyaDrawX",
   "InternalName": "NyaDrawX",
-  "AssemblyVersion": "1.0.6.15",
+  "AssemblyVersion": "1.0.6.20",
   "Description": "下一代小画家",
   "ApplicableVersion": "any",
   "Tags": [
@@ -17,6 +17,6 @@
   "LoadPriority": 0,
   "IconUrl": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/plugins/NyaDraw/NyaDraw.png",
   "Punchline": "下一代小画家",
-  "Changelog": "修复 M4S可能导致游戏崩溃问题",
+  "Changelog": "优化 新增异常捕获机制，大幅提高了使用的稳定性，减少了游戏崩溃的可能",
   "AcceptsFeedback": true
 }
