@@ -18,7 +18,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Chameleon/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Chameleon/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1724678201"
+        "LastUpdate": "1725099450"
     },
     {
         "Author": "kawaii / 适配汉化-Yarukon、NiGuangOwO(moewcorp)",
@@ -36,7 +36,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Hyperborea/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Hyperborea/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1724678201"
+        "LastUpdate": "1725099450"
     },
     {
         "Author": "Liza Carvelli (Puni.sh)/ NiGuangOwO (本地化)",
@@ -61,7 +61,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PalacePal/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PalacePal/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1724678201"
+        "LastUpdate": "1725099450"
     },
     {
         "Author": "NiGuangOwO",
@@ -84,7 +84,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock (apiX)/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock (apiX)/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1724678201"
+        "LastUpdate": "1725099450"
     },
     {
         "Author": "Taurenkey (Puni.sh) / NiGuangOwO (本地化&功能维护)",
@@ -108,16 +108,16 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PandorasBox/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PandorasBox/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1724678201"
+        "LastUpdate": "1725099450"
     },
     {
         "Author": "NiGuangOwO, Small_Miao (moewcorp)",
         "Name": "NyaDrawX",
         "Punchline": "下一代小画家",
         "Description": "下一代小画家",
-        "Changelog": "优化 新增异常捕获机制，大幅提高了使用的稳定性，减少了游戏崩溃的可能",
+        "Changelog": " - 修复M4N绘制bug\n - 同步绝龙诗P5精修",
         "InternalName": "NyaDrawX",
-        "AssemblyVersion": "1.0.6.20",
+        "AssemblyVersion": "1.0.6.21",
         "ApplicableVersion": "any",
         "Tags": [
             "vfx",
@@ -132,7 +132,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDrawX/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDrawX/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1724678201"
+        "LastUpdate": "1725099450"
     },
     {
         "Author": "NiGuangOwO, Small_Miao (moewcorp)",
@@ -156,7 +156,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDraw/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDraw/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1724678201"
+        "LastUpdate": "1725099450"
     },
     {
         "Author": "Jukkales / NiGuangOwO(适配&汉化)",
@@ -182,7 +182,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/HoardFarm/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/HoardFarm/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1724678201"
+        "LastUpdate": "1725099450"
     },
     {
         "Author": "53m1k0l0n/Gidedin (Puni.sh)/NiGuangOwO (本地化)",
@@ -208,7 +208,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LazyLoot/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LazyLoot/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1724678201"
+        "LastUpdate": "1725099450"
     },
     {
         "Author": "NiGuangOwO",
@@ -228,7 +228,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/SkipLogo/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/SkipLogo/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1724678201"
+        "LastUpdate": "1725099450"
     },
     {
         "Author": "NiGuangOwO",
@@ -250,7 +250,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1724678201"
+        "LastUpdate": "1725099450"
     },
     {
         "Author": "veyn",
@@ -274,7 +274,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossMod/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossMod/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1724678201"
+        "LastUpdate": "1725099450"
     },
     {
         "Author": "NiGuangOwO",
@@ -295,7 +295,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/DontBanMyPlugin/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/DontBanMyPlugin/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1724678201"
+        "LastUpdate": "1725099450"
     },
     {
         "Author": "0x, NiGuangOwO",
@@ -316,7 +316,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LuckyStar/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LuckyStar/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1724678201"
+        "LastUpdate": "1725099450"
     },
     {
         "Author": "NightmareXIV / NiGuangOwO（汉化&适配）",
@@ -336,6 +336,6 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1724678201"
+        "LastUpdate": "1725099450"
     }
 ]
