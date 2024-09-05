@@ -2,7 +2,7 @@
   "Author": "NiGuangOwO, Small_Miao (moewcorp)",
   "Name": "NyaDraw",
   "InternalName": "NyaDraw",
-  "AssemblyVersion": "1.0.3.24",
+  "AssemblyVersion": "1.0.3.25",
   "Description": "下一代小画家",
   "ApplicableVersion": "any",
   "Tags": [
@@ -17,6 +17,6 @@
   "LoadPriority": 0,
   "IconUrl": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/plugins/NyaDraw/NyaDraw.png",
   "Punchline": "下一代小画家",
-  "Changelog": " - 修复绝龙诗P6冰火错误绘制\n - 修复了自动绘制中，点名死刑的绘制错误",
+  "Changelog": " - 修复绝龙诗P7核爆绘制顺序错误",
   "AcceptsFeedback": true
 }
