@@ -18,7 +18,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LuckyStar/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LuckyStar/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1727361961"
+        "LastUpdate": "1727364421"
     },
     {
         "Author": "53m1k0l0n/Gidedin (Puni.sh)/NiGuangOwO (本地化)",
@@ -44,29 +44,29 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LazyLoot/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LazyLoot/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1727361961"
+        "LastUpdate": "1727364421"
     },
     {
         "Author": "NiGuangOwO",
         "Name": "FuckAnimationLock",
-        "Punchline": "修改技能动画锁，优化循环手感，但并不能把Logs从蓝色变成金色 (在线安装Only)",
+        "Punchline": "自定义动画锁(在线安装Only)",
         "Description": "打本我就要三插，闲鱼小店死个妈\n\n某些绿玩能不能别洗了，底层屎山加垃圾服务器延迟导致手感稀烂，自己玩起来不觉得膈应吗？\n我开你别劝，我劝你也开，开了更流畅，兄弟们开",
-        "Changelog": ".NET 8",
+        "Changelog": "适配国服7.0",
         "Tags": [
-            "fuck"
+            "fuck",
+            "AnimationLock"
         ],
         "InternalName": "FuckAnimationLock",
-        "AssemblyVersion": "2.5.1.0",
-        "RepoUrl": "https://github.com/NiGuangOwO/FuckAnimationLock",
+        "AssemblyVersion": "2.6.0.0",
         "ApplicableVersion": "any",
-        "DalamudApiLevel": 9,
+        "DalamudApiLevel": 10,
         "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1727361961"
+        "LastUpdate": "1727364421"
     },
     {
         "Author": "Jukkales / NiGuangOwO(适配&汉化)",
@@ -92,7 +92,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/HoardFarm/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/HoardFarm/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1727361961"
+        "LastUpdate": "1727364421"
     },
     {
         "Author": "NightmareXIV / NiGuangOwO（汉化&适配）",
@@ -112,7 +112,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1727361961"
+        "LastUpdate": "1727364421"
     },
     {
         "Author": "Taurenkey (Puni.sh) / NiGuangOwO (本地化&功能维护)",
@@ -136,7 +136,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PandorasBox/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PandorasBox/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1727361961"
+        "LastUpdate": "1727364421"
     },
     {
         "Author": "Liza Carvelli (Puni.sh)/ NiGuangOwO (本地化)",
@@ -161,7 +161,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PalacePal/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PalacePal/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1727361961"
+        "LastUpdate": "1727364421"
     },
     {
         "Author": "veyn",
@@ -185,7 +185,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossMod/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossMod/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1727361961"
+        "LastUpdate": "1727364421"
     },
     {
         "Author": "NiGuangOwO",
@@ -205,7 +205,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/SkipLogo/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/SkipLogo/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1727361961"
+        "LastUpdate": "1727364421"
     },
     {
         "Author": "kawaii / 适配汉化-Yarukon、NiGuangOwO(moewcorp)",
@@ -223,7 +223,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Hyperborea/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Hyperborea/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1727361961"
+        "LastUpdate": "1727364421"
     },
     {
         "Author": "NiGuangOwO",
@@ -243,7 +243,7 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/DontBanMyPlugin/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/DontBanMyPlugin/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1727361961"
+        "LastUpdate": "1727364421"
     },
     {
         "Author": "NiGuangOwO, Small_Miao (moewcorp)",
@@ -267,6 +267,6 @@
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDraw/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDraw/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1727361961"
+        "LastUpdate": "1727364421"
     }
 ]
