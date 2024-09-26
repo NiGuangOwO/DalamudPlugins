@@ -2,18 +2,17 @@
   "Author": "NiGuangOwO",
   "Name": "Dont Ban My Plugin",
   "InternalName": "DontBanMyPlugin",
-  "AssemblyVersion": "0.0.0.3",
+  "AssemblyVersion": "0.0.1.0",
   "Description": "我才不要当绿玩",
   "ApplicableVersion": "any",
   "Tags": [
-    "unban",
-    "plugin"
+    "unban"
   ],
-  "DalamudApiLevel": 9,
+  "DalamudApiLevel": 10,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
-  "LoadPriority": 0,
+  "LoadPriority": -1,
   "Punchline": "放出被禁用的插件（本地加载无效）",
   "AcceptsFeedback": true
 }
