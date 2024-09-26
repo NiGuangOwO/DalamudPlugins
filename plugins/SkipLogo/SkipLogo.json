@@ -2,17 +2,17 @@
   "Author": "NiGuangOwO",
   "Name": "SkipLogo",
   "InternalName": "SkipLogo",
-  "AssemblyVersion": "0.0.0.1",
+  "AssemblyVersion": "0.0.0.2",
   "Description": "别浪费我时间",
   "ApplicableVersion": "any",
   "Tags": [
     "skip"
   ],
-  "DalamudApiLevel": 9,
+  "DalamudApiLevel": 10,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
-  "LoadPriority": 0,
+  "LoadPriority": 1,
   "Punchline": "跳过游戏启动的黑屏Logo阶段，安装即生效",
   "AcceptsFeedback": true
 }
