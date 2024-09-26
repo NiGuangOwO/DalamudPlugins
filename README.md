@@ -11,14 +11,3 @@
 ```
 https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/pluginmaster.json
 ```
-
-## 仓库插件列表
-
-| 插件名称                    | 介绍                                                                                            | 作者                                                                               | 本地化维护                                  | 汉化 | 插件更新状态 |
-| --------------------------- | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------- | ---- | ------------ |
-| FuckAnimationLock           | 改动画锁                                                                                        | [NiGuangOwO](https://github.com/NiGuangOwO)                                        | [NiGuangOwO](https://github.com/NiGuangOwO) | √    | √            |
-| BossMod                     | 小地图画图                                                                                      | [awgil](https://github.com/awgil)                                                  | [Yarukon](https://github.com/Yarukon)       | √    | √            |
-| LazyLoot                    | 一键/全自动 roll 点                                                                             | [53m1k0l0n](https://github.com/53m1k0l0n) / [Punish](https://github.com/PunishXIV) | [NiGuangOwO](https://github.com/NiGuangOwO) | √    | √            |
-| Lifestream                  | 在水晶附近显示城内传送和跨服悬浮窗                                                              | [NightmareXIV](https://github.com/NightmareXIV)                                    | [NiGuangOwO](https://github.com/NiGuangOwO) | √    | √            |
-| PandorasBox                 | 各种自动化玩具                                                                                  | [Punish](https://github.com/PunishXIV)                                             | [NiGuangOwO](https://github.com/NiGuangOwO) | √    | √            |
-
