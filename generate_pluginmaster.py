@@ -21,6 +21,7 @@ DEFAULTS = {
 # 插件元数据中重复键的映射
 DUPLICATES = {
     "DownloadLinkInstall": ["DownloadLinkTesting", "DownloadLinkUpdate"],
+    "DalamudApiLevel": ["TestingDalamudApiLevel"],
 }
 
 # 保留在修剪后的清单中的键
