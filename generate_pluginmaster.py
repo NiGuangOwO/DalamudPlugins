@@ -20,8 +20,7 @@ DEFAULTS = {
 
 # 插件元数据中重复键的映射
 DUPLICATES = {
-    "DownloadLinkInstall": ["DownloadLinkTesting", "DownloadLinkUpdate"],
-    "DalamudApiLevel": ["TestingDalamudApiLevel"],
+    "DownloadLinkInstall": ["DownloadLinkUpdate"],
 }
 
 # 保留在修剪后的清单中的键
@@ -89,6 +88,9 @@ def extract_manifests():
                     )
                     manifest["TestingAssemblyVersion"] = testing_manifest.get(
                         "AssemblyVersion"
+                    )
+                    manifest["TestingDalamudApiLevel"] = testing_manifest.get(
+                        "DalamudApiLevel"
                     )
             manifests.append(manifest)
 
