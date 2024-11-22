@@ -2,7 +2,7 @@
   "Author": "Taurenkey (Puni.sh) / NiGuangOwO (本地化&功能维护)",
   "Name": "Pandora's Box",
   "InternalName": "PandorasBox",
-  "AssemblyVersion": "1.6.1.3",
+  "AssemblyVersion": "1.6.1.4",
   "Description": "Pandora's Box是一个改善游戏体验和一些功能调整的集合",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/PunishXIV/PandorasBox",
@@ -17,6 +17,6 @@
   "LoadPriority": 0,
   "IconUrl": "https://s3.puni.sh/media/plugin/8/icon-9opcpzqyh1h.png",
   "Punchline": "你敢打开潘多拉的盒子吗？（在线安装 Only）",
-  "Changelog": "适配国服7.0",
+  "Changelog": "优化 [国服限定] 招募自动续期",
   "AcceptsFeedback": true
 }
