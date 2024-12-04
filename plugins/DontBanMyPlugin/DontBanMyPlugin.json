@@ -2,7 +2,7 @@
   "Author": "NiGuangOwO",
   "Name": "Dont Ban My Plugin",
   "InternalName": "DontBanMyPlugin",
-  "AssemblyVersion": "1.0.0.1",
+  "AssemblyVersion": "1.0.0.2",
   "Description": "我才不要当绿玩",
   "ApplicableVersion": "any",
   "Tags": [
@@ -12,7 +12,7 @@
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
-  "LoadPriority": -10000,
+  "LoadPriority": 9999,
   "Punchline": "放出被禁用的插件 - Unban（在线加载Only）",
   "AcceptsFeedback": true
 }
