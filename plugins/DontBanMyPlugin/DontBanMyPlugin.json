@@ -8,7 +8,7 @@
   "Tags": [
     "unban"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 10,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
