@@ -2,13 +2,13 @@
   "Author": "Small_Miao",
   "Name": "Nya Damage Prediction",
   "InternalName": "NyaDamagePrediction",
-  "AssemblyVersion": "0.0.0.1",
+  "AssemblyVersion": "0.0.2.0",
   "Description": "use /ndp to watch config",
   "ApplicableVersion": "any",
   "Tags": [
-    "Nya",
-    "Damage",
-    "Prediction"
+    "sample",
+    "plugin",
+    "goats"
   ],
   "DalamudApiLevel": 11,
   "LoadRequiredState": 0,
