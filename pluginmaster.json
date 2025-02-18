@@ -1,5 +1,26 @@
 [
     {
+        "Author": "Small_Miao",
+        "Name": "Nya Damage Prediction",
+        "Punchline": "A plugin add flytext now Percent Damage",
+        "Description": "use /ndp to watch config",
+        "Tags": [
+            "Nya",
+            "Damage",
+            "Prediction"
+        ],
+        "InternalName": "NyaDamagePrediction",
+        "AssemblyVersion": "0.0.0.1",
+        "ApplicableVersion": "any",
+        "DalamudApiLevel": 11,
+        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDamagePrediction/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDamagePrediction/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1739859918"
+    },
+    {
         "Author": "Liza Carvelli (Puni.sh) / NiGuangOwO (本地化适配)",
         "Name": "Palace Pal",
         "Punchline": "在死宫、天宫和正统优雷卡显示潜在陷阱和埋藏的宝藏。",
@@ -21,7 +42,7 @@
         "IsTestingExclusive": false,
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PalacePal/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1739805839"
+        "LastUpdate": "1739859918"
     },
     {
         "Author": "NiGuangOwO",
@@ -42,7 +63,7 @@
         "IsTestingExclusive": false,
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1739805839"
+        "LastUpdate": "1739859918"
     },
     {
         "Author": "NiGuangOwO",
@@ -61,7 +82,7 @@
         "IsTestingExclusive": false,
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/SkipLogo/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1739805839"
+        "LastUpdate": "1739859918"
     },
     {
         "Author": "NightmareXIV / NiGuangOwO（汉化&适配）",
@@ -79,7 +100,7 @@
         "IsTestingExclusive": false,
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1739805839"
+        "LastUpdate": "1739859918"
     },
     {
         "Author": "Jukkales / NiGuangOwO(适配&汉化)",
@@ -104,7 +125,7 @@
         "IsTestingExclusive": false,
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/HoardFarm/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1739805839"
+        "LastUpdate": "1739859918"
     },
     {
         "Author": "NiGuangOwO, Small_Miao (moewcorp)",
@@ -129,7 +150,7 @@
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDraw/latest.zip",
         "DownloadCount": 0,
         "DownloadLinkTesting": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDraw/testing/latest.zip",
-        "LastUpdate": "1739805839"
+        "LastUpdate": "1739859918"
     },
     {
         "Author": "The Combat Reborn Team / NiGuangOwO（本地化&适配）",
@@ -152,7 +173,7 @@
         "IsTestingExclusive": false,
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossModReborn/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1739805839"
+        "LastUpdate": "1739859918"
     },
     {
         "Author": "NiGuangOwO",
@@ -171,7 +192,7 @@
         "IsTestingExclusive": false,
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/DontBanMyPlugin/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1739805839"
+        "LastUpdate": "1739859918"
     },
     {
         "Author": "53m1k0l0n/Gidedin (Puni.sh) / NiGuangOwO (本地化)",
@@ -195,7 +216,7 @@
         "IsTestingExclusive": false,
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LazyLoot/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1739805839"
+        "LastUpdate": "1739859918"
     },
     {
         "Author": "Taurenkey (Puni.sh) / NiGuangOwO (本地化&功能维护)",
@@ -218,7 +239,7 @@
         "IsTestingExclusive": false,
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PandorasBox/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1739805839"
+        "LastUpdate": "1739859918"
     },
     {
         "Author": "0x, NiGuangOwO",
@@ -238,6 +259,6 @@
         "IsTestingExclusive": false,
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LuckyStar/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1739805839"
+        "LastUpdate": "1739859918"
     }
 ]
