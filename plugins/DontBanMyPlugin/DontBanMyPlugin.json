@@ -2,13 +2,13 @@
   "Author": "NiGuangOwO",
   "Name": "Dont Ban My Plugin",
   "InternalName": "DontBanMyPlugin",
-  "AssemblyVersion": "1.0.0.4",
+  "AssemblyVersion": "1.0.0.5",
   "Description": "我才不要当绿玩",
   "ApplicableVersion": "any",
   "Tags": [
     "unban"
   ],
-  "DalamudApiLevel": 10,
+  "DalamudApiLevel": 11,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
