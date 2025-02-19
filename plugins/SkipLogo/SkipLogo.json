@@ -2,13 +2,13 @@
   "Author": "NiGuangOwO",
   "Name": "SkipLogo",
   "InternalName": "SkipLogo",
-  "AssemblyVersion": "0.0.0.2",
+  "AssemblyVersion": "0.0.0.3",
   "Description": "别浪费我时间",
   "ApplicableVersion": "any",
   "Tags": [
     "skip"
   ],
-  "DalamudApiLevel": 10,
+  "DalamudApiLevel": 11,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
