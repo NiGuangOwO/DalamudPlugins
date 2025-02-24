@@ -1,6 +1,6 @@
 {
   "Author": "NightmareXIV, Small_Miao(汉化)",
-  "Name": "JustBackupCN",
+  "Name": "JustBackup",
   "InternalName": "JustBackup",
   "AssemblyVersion": "1.1.0.9",
   "Description": "该插件会在游戏/插件启动时自动备份你的游戏和插件配置.",
