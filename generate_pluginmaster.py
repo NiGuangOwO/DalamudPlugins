@@ -75,7 +75,7 @@ def extract_manifests():
                     global_manifest = json.loads(
                         gz.read(f"{plugin_name}.json").decode("utf-8")
                     )
-                    global_manifest["Name"] = f"{global_manifest['Name']} (API12))"
+                    global_manifest["Name"] = f"{global_manifest['Name']} (API12)"
                     manifests.append(global_manifest)
     return manifests
 
