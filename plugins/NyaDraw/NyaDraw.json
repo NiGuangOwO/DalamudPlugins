@@ -2,7 +2,7 @@
   "Author": "NiGuangOwO, Small_Miao (moewcorp)",
   "Name": "NyaDraw",
   "InternalName": "NyaDraw",
-  "AssemblyVersion": "1.0.11.56",
+  "AssemblyVersion": "1.0.12.29",
   "Description": "有黄圈你不躲?",
   "ApplicableVersion": "any",
   "Tags": [
@@ -10,7 +10,7 @@
     "omen",
     "spl"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
