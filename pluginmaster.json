@@ -19,7 +19,7 @@
         "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PalacePal/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PalacePal/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1750863808"
+        "LastUpdate": "1750864228"
     },
     {
         "Author": "The Combat Reborn Team / NiGuangOwO（本地化&适配）",
@@ -40,7 +40,7 @@
         "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossModReborn/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossModReborn/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1750863808"
+        "LastUpdate": "1750864228"
     },
     {
         "Author": "NightmareXIV, Small_Miao(汉化)",
@@ -55,7 +55,7 @@
         "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/JustBackup/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/JustBackup/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1750863808"
+        "LastUpdate": "1750864228"
     },
     {
         "Author": "Asteria Nocturna",
@@ -72,7 +72,7 @@
         "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/AetheryteLinkInChat/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/AetheryteLinkInChat/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1750863808"
+        "LastUpdate": "1750864228"
     },
     {
         "Author": "NiGuangOwO",
@@ -83,13 +83,13 @@
             "RankS"
         ],
         "InternalName": "LuckyStar",
-        "AssemblyVersion": "0.0.0.5",
+        "AssemblyVersion": "0.0.0.6",
         "ApplicableVersion": "any",
-        "DalamudApiLevel": 11,
+        "DalamudApiLevel": 12,
         "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LuckyStar/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LuckyStar/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1750863808"
+        "LastUpdate": "1750864228"
     },
     {
         "Author": "NightmareXIV / NiGuangOwO（汉化&适配）",
@@ -105,7 +105,7 @@
         "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1750863808"
+        "LastUpdate": "1750864228"
     },
     {
         "Author": "NiGuangOwO",
@@ -123,7 +123,7 @@
         "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1750863808"
+        "LastUpdate": "1750864228"
     },
     {
         "Author": "53m1k0l0n/Gidedin (Puni.sh) / NiGuangOwO (本地化)",
@@ -146,7 +146,7 @@
         "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LazyLoot/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LazyLoot/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1750863808"
+        "LastUpdate": "1750864228"
     },
     {
         "Author": "NiGuangOwO, Small_Miao (moewcorp)",
@@ -166,7 +166,7 @@
         "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDraw/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDraw/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1750863808"
+        "LastUpdate": "1750864228"
     },
     {
         "Author": "Jukkales / NiGuangOwO(适配&汉化)",
@@ -190,7 +190,7 @@
         "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/HoardFarm/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/HoardFarm/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1750863808"
+        "LastUpdate": "1750864228"
     },
     {
         "Author": "Small_Miao",
@@ -209,6 +209,6 @@
         "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDamagePrediction/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDamagePrediction/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1750863808"
+        "LastUpdate": "1750864228"
     }
 ]
