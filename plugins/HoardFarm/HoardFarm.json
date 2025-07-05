@@ -2,7 +2,7 @@
   "Author": "Jukkales / NiGuangOwO(适配&汉化)",
   "Name": "HoardFarm",
   "InternalName": "HoardFarm",
-  "AssemblyVersion": "1.5.3.3",
+  "AssemblyVersion": "1.5.3.4",
   "Description": "帮助您伐木深层迷宫宝藏的插件（...为您）",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Jukkales/HoardFarm",
@@ -14,7 +14,7 @@
     "accursed",
     "achievement"
   ],
-  "DalamudApiLevel": 11,
+  "DalamudApiLevel": 12,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
