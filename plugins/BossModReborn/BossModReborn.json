@@ -2,7 +2,7 @@
   "Author": "The Combat Reborn Team / NiGuangOwO（本地化&适配）",
   "Name": "Bossmod Reborn",
   "InternalName": "BossModReborn",
-  "AssemblyVersion": "7.2.5.58",
+  "AssemblyVersion": "7.2.5.102",
   "Description": "仅禁用了与后期软件冲突的代码（AI可用，自动循环可能失效）",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/FFXIV-CombatReborn/BossmodReborn",
