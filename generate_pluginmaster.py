@@ -75,14 +75,14 @@ def extract_manifests():
                     global_manifest = json.loads(
                         gz.read(f"{plugin_name}.json").decode("utf-8")
                     )
-                    global_manifest["Name"] = f"{global_manifest['Name']} (API12)"
+                    global_manifest["Name"] = f"{global_manifest['Name']} (API13)"
                     manifests.append(global_manifest)
     return manifests
 
 
 def add_extra_fields(manifests):
     for manifest in manifests:
-        is_global = manifest["Name"].endswith("(API12)")
+        is_global = manifest["Name"].endswith("(API13)")
 
         if is_global:
             manifest["DownloadLinkInstall"] = GLOBAL_DOWNLOAD_URL.format(
