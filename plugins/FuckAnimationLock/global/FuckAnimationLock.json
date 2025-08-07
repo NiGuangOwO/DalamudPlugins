@@ -1,0 +1,19 @@
+{
+  "Author": "NiGuangOwO",
+  "Name": "FuckAnimationLock",
+  "InternalName": "FuckAnimationLock",
+  "AssemblyVersion": "3.0.13.0",
+  "Description": "打本我就要三插，闲鱼小店死个妈",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "fuck",
+    "AnimationLock"
+  ],
+  "DalamudApiLevel": 13,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "自定义动画锁(在线安装Only)",
+  "AcceptsFeedback": true
+}
