@@ -1,0 +1,21 @@
+{
+  "Author": "NiGuangOwO, Small_Miao (moewcorp)",
+  "Name": "NyaDraw",
+  "InternalName": "NyaDraw",
+  "AssemblyVersion": "1.13.0.0",
+  "Description": "有黄圈你不躲?",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "vfx",
+    "omen",
+    "spl"
+  ],
+  "DalamudApiLevel": 13,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/plugins/NyaDraw/NyaDraw.png",
+  "Punchline": "下一代小画家",
+  "AcceptsFeedback": true
+}
