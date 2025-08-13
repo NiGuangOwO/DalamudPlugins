@@ -1,0 +1,28 @@
+{
+  "Author": "Faye",
+  "Name": "Better Occult Crescent & Chest Helper Interface",
+  "InternalName": "BOCCHI",
+  "AssemblyVersion": "0.69.1.0",
+  "Description": "BOCCHI 旨在让您的新月岛体验更加流畅。\n- 不再有那些烦人的“跑腿”或“寻找宝箱”了。那是给失败者玩的。\n- 一个可爱的小 Fate 和 CE 面板会告诉您它提供了什么奖励，并帮助您自动找到它，哇哦。\n- 一个极端非法的“非法模式”，适合那些宁愿摸摸草地或玩有价值内容的游戏的人。",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "BOCCHI",
+    "Occult Crescent",
+    "Occult",
+    "Crescent",
+    "Illegal",
+    "Critical Encounter",
+    "Fate",
+    "Faye",
+    "BOCCHER",
+    "OCH"
+  ],
+  "DalamudApiLevel": 12,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/OhKannaDuh/OccultCrescentHelper/refs/heads/master/assets/icon.png",
+  "Punchline": "BOCCHI 可以帮助您更加顺利地体验新月岛",
+  "AcceptsFeedback": true
+}
