@@ -2,8 +2,8 @@
   "Author": "Bluefissure",
   "Name": "Inviter",
   "InternalName": "Inviter",
-  "AssemblyVersion": "1.1.3.0",
-  "Description": "Automatically invite people to your party (doesn't work for CWLS). /xinvite to open.",
+  "AssemblyVersion": "1.1.4.0",
+  "Description": "自动邀请玩家到你的队伍中",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Bluefissure/Inviter",
   "DalamudApiLevel": 12,
@@ -12,6 +12,6 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "IconUrl": "https://raw.githubusercontent.com/Bluefissure/Inviter/main/images/icon.png",
-  "Punchline": "Invite please",
+  "Punchline": "别让扣111成为遗憾",
   "AcceptsFeedback": true
 }
