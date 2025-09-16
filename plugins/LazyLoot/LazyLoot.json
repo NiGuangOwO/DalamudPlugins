@@ -2,7 +2,7 @@
   "Author": "53m1k0l0n/Gidedin (Puni.sh) / NiGuangOwO (本地化)",
   "Name": "LazyLoot",
   "InternalName": "LazyLoot",
-  "AssemblyVersion": "5.3.2.0",
+  "AssemblyVersion": "5.3.2.2",
   "Description": "带有各种参数的Roll点命令 need | greed | pass\n聊天和Toast输出以及Roll点延迟。",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/PunishXIV/LazyLoot",
@@ -12,7 +12,7 @@
     "utility",
     "other"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
