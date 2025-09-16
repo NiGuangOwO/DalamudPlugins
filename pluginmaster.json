@@ -17,7 +17,7 @@
         "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDraw/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDraw/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1758035822"
+        "LastUpdate": "1758036271"
     },
     {
         "Author": "The Combat Reborn Team / NiGuangOwO（本地化&适配）",
@@ -38,23 +38,23 @@
         "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossModReborn/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossModReborn/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1758035822"
+        "LastUpdate": "1758036271"
     },
     {
         "Author": "Bluefissure",
         "Name": "Inviter",
-        "Punchline": "别让扣111成为遗憾",
-        "Description": "自动邀请玩家到你的队伍中",
+        "Punchline": "自动邀请玩家到你的队伍中",
+        "Description": "别让扣111成为遗憾",
         "InternalName": "Inviter",
         "RepoUrl": "https://github.com/Bluefissure/Inviter",
         "AssemblyVersion": "1.1.4.0",
         "ApplicableVersion": "any",
-        "DalamudApiLevel": 12,
+        "DalamudApiLevel": 13,
         "IconUrl": "https://raw.githubusercontent.com/Bluefissure/Inviter/main/images/icon.png",
         "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Inviter/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Inviter/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1758035822"
+        "LastUpdate": "1758036271"
     },
     {
         "Author": "53m1k0l0n/Gidedin (Puni.sh) / NiGuangOwO (本地化)",
@@ -77,7 +77,7 @@
         "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LazyLoot/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LazyLoot/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1758035822"
+        "LastUpdate": "1758036271"
     },
     {
         "Author": "Small_Miao",
@@ -96,7 +96,24 @@
         "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDamagePrediction/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/NyaDamagePrediction/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1758035822"
+        "LastUpdate": "1758036271"
+    },
+    {
+        "Author": "NiGuangOwO",
+        "Name": "SSMinionBoradcast",
+        "Punchline": "简单的播报SS前置小怪的小工具",
+        "Description": "简单的播报SS前置小怪的小工具",
+        "Tags": [
+            "SS"
+        ],
+        "InternalName": "SSMinionBoradcast",
+        "AssemblyVersion": "1.0.0.0",
+        "ApplicableVersion": "any",
+        "DalamudApiLevel": 13,
+        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/SSMinionBoradcast/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/SSMinionBoradcast/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1758036271"
     },
     {
         "Author": "Faye / NiGuangOwO (适配&优化) / Ookura-Risona (汉化)",
@@ -124,7 +141,7 @@
         "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BOCCHI/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BOCCHI/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1758035822"
+        "LastUpdate": "1758036271"
     },
     {
         "Author": "Taurenkey (Puni.sh) / NiGuangOwO (本地化&功能维护)",
@@ -145,7 +162,7 @@
         "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PandorasBox/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PandorasBox/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1758035822"
+        "LastUpdate": "1758036271"
     },
     {
         "Author": "NightmareXIV / NiGuangOwO（汉化&适配）",
@@ -161,7 +178,7 @@
         "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/Lifestream/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1758035822"
+        "LastUpdate": "1758036271"
     },
     {
         "Author": "NiGuangOwO",
@@ -178,7 +195,7 @@
         "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LuckyStar/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/LuckyStar/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1758035822"
+        "LastUpdate": "1758036271"
     },
     {
         "Author": "NiGuangOwO",
@@ -196,7 +213,7 @@
         "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/FuckAnimationLock/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1758035822"
+        "LastUpdate": "1758036271"
     },
     {
         "Author": "Asteria Nocturna",
@@ -213,7 +230,7 @@
         "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/AetheryteLinkInChat/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/AetheryteLinkInChat/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1758035822"
+        "LastUpdate": "1758036271"
     },
     {
         "Author": "Liza Carvelli (Puni.sh) / NiGuangOwO (本地化适配)",
@@ -235,7 +252,7 @@
         "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PalacePal/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/PalacePal/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1758035822"
+        "LastUpdate": "1758036271"
     },
     {
         "Author": "Jukkales / NiGuangOwO(适配&汉化)",
@@ -259,6 +276,6 @@
         "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/HoardFarm/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/HoardFarm/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1758035822"
+        "LastUpdate": "1758036271"
     }
 ]
