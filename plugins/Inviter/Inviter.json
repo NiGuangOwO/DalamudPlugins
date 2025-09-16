@@ -3,15 +3,15 @@
   "Name": "Inviter",
   "InternalName": "Inviter",
   "AssemblyVersion": "1.1.4.0",
-  "Description": "自动邀请玩家到你的队伍中",
+  "Description": "别让扣111成为遗憾",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Bluefissure/Inviter",
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "IconUrl": "https://raw.githubusercontent.com/Bluefissure/Inviter/main/images/icon.png",
-  "Punchline": "别让扣111成为遗憾",
+  "Punchline": "自动邀请玩家到你的队伍中",
   "AcceptsFeedback": true
 }
