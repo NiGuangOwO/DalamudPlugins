@@ -2,13 +2,13 @@
   "Author": "NiGuangOwO",
   "Name": "LuckyStar",
   "InternalName": "LuckyStar",
-  "AssemblyVersion": "0.0.0.6",
+  "AssemblyVersion": "1.0.0.0",
   "Description": "woc！触发组！",
   "ApplicableVersion": "any",
   "Tags": [
     "RankS"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
