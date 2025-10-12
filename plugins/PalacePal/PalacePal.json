@@ -2,7 +2,7 @@
   "Author": "Liza Carvelli (Puni.sh) / NiGuangOwO (本地化适配)",
   "Name": "Palace Pal",
   "InternalName": "PalacePal",
-  "AssemblyVersion": "4.12.0.0",
+  "AssemblyVersion": "4.14.0.0",
   "Description": "在死宫、天宫和正统优雷卡显示潜在陷阱和埋藏的宝藏。\n\n这个插件需要Splatoon才能在屏幕上渲染绘图。",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/PunishXIV/PalacePal",
@@ -12,7 +12,7 @@
     "hoh",
     "splatoon"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
