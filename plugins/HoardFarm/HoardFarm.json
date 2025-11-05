@@ -2,7 +2,7 @@
   "Author": "Jukkales / NiGuangOwO(适配&汉化)",
   "Name": "HoardFarm",
   "InternalName": "HoardFarm",
-  "AssemblyVersion": "1.5.3.5",
+  "AssemblyVersion": "1.6.0.1",
   "Description": "帮助您伐木深层迷宫宝藏的插件（...为您）",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Jukkales/HoardFarm",
@@ -20,6 +20,6 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "IconUrl": "https://github.com/Jukkales/HoardFarm/raw/main/icon.png",
-  "Punchline": "成为一名埋藏的诅咒者！",
+  "Punchline": "成为一名埋藏的诅咒！",
   "AcceptsFeedback": true
 }
