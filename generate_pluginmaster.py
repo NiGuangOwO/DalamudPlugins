@@ -29,7 +29,6 @@ TRIMMED_KEYS = [
     "TestingDalamudApiLevel",
     "IconUrl",
     "ImageUrls",
-    "Subfolder",
 ]
 
 
