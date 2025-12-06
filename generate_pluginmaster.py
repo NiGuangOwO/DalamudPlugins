@@ -29,6 +29,7 @@ TRIMMED_KEYS = [
     "TestingDalamudApiLevel",
     "IconUrl",
     "ImageUrls",
+    "Subfolder",
 ]
 
 
@@ -125,6 +126,9 @@ def add_extra_fields(manifests):
 
 
 def write_master(master):
+    # Remove Subfolder field before writing to JSON (internal use only)
+    for plugin in master:
+        plugin.pop("Subfolder", None)
     with open("pluginmaster.json", "w") as f:
         json.dump(master, f, indent=4)
 
