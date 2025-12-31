@@ -2,7 +2,7 @@
   "Author": "Asteria Nocturna",
   "Name": "Divination.AetheryteLinkInChat",
   "InternalName": "AetheryteLinkInChat",
-  "AssemblyVersion": "7.3.1.41",
+  "AssemblyVersion": "7.3.0.0",
   "Description": "从游戏聊天信息的地图链接，中显示一个传送链接到最近的以太之光的链接。输入 /alic 来配置插件。",
   "ApplicableVersion": "any",
   "Tags": [
@@ -11,7 +11,7 @@
   "CategoryTags": [
     "utility"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
