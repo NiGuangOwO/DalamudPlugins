@@ -2,7 +2,7 @@
   "Author": "NiGuangOwO / Small_Miao",
   "Name": "NyaDraw",
   "InternalName": "NyaDraw",
-  "AssemblyVersion": "1.14.0.5",
+  "AssemblyVersion": "1.14.0.6",
   "Description": "有黄圈你躲不躲",
   "ApplicableVersion": "any",
   "Tags": [
@@ -17,6 +17,6 @@
   "LoadPriority": 0,
   "IconUrl": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/plugins/NyaDraw/NyaDraw.png",
   "Punchline": "下一代小画家",
-  "Changelog": "- 新增 格莱杨拉波尔歼殛战 绘制",
+  "Changelog": "- 新增 M9S M10S 绘制",
   "AcceptsFeedback": true
 }
