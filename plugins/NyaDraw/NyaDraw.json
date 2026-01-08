@@ -2,7 +2,7 @@
   "Author": "NiGuangOwO / Small_Miao",
   "Name": "NyaDraw",
   "InternalName": "NyaDraw",
-  "AssemblyVersion": "1.14.0.10",
+  "AssemblyVersion": "1.14.0.11",
   "Description": "有黄圈你躲不躲",
   "ApplicableVersion": "any",
   "Tags": [
@@ -17,6 +17,6 @@
   "LoadPriority": 0,
   "IconUrl": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/plugins/NyaDraw/NyaDraw.png",
   "Punchline": "下一代小画家",
-  "Changelog": "- M11 绘图完善",
+  "Changelog": "- M10s FIX",
   "AcceptsFeedback": true
 }
