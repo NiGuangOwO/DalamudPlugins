@@ -2,7 +2,7 @@
   "Author": "The Combat Reborn Team / NiGuangOwO（本地化&适配）",
   "Name": "Bossmod Reborn",
   "InternalName": "BossModReborn",
-  "AssemblyVersion": "7.4.1.5",
+  "AssemblyVersion": "7.4.1.6",
   "Description": "Boss mod.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/FFXIV-CombatReborn/BossmodReborn",
@@ -18,6 +18,5 @@
   ],
   "IconUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/RebornAssets/main/IconAssets/BMR_Icon.png",
   "Punchline": "大脑按摩用的(在线安装Only)",
-  "Changelog": "7.4",
   "AcceptsFeedback": true
 }
