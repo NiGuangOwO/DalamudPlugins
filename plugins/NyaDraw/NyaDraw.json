@@ -2,7 +2,7 @@
   "Author": "NiGuangOwO / Small_Miao",
   "Name": "NyaDraw",
   "InternalName": "NyaDraw",
-  "AssemblyVersion": "1.14.0.29",
+  "AssemblyVersion": "1.14.0.30",
   "Description": "有黄圈你躲不躲",
   "ApplicableVersion": "any",
   "Tags": [
@@ -17,6 +17,6 @@
   "LoadPriority": 0,
   "IconUrl": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/plugins/NyaDraw/NyaDraw.png",
   "Punchline": "下一代小画家",
-  "Changelog": "- 添加：异闻商客奇谭 火仙女佩莉 绘制",
+  "Changelog": "- 优化：异闻商客奇谭 火仙女佩莉 绘制",
   "AcceptsFeedback": true
 }
