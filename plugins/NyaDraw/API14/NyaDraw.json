@@ -2,7 +2,7 @@
   "Author": "NiGuangOwO / Small_Miao",
   "Name": "NyaDraw",
   "InternalName": "NyaDraw",
-  "AssemblyVersion": "1.15.0.0",
+  "AssemblyVersion": "1.14.0.35",
   "Description": "有黄圈你躲不躲",
   "ApplicableVersion": "any",
   "Tags": [
@@ -10,13 +10,13 @@
     "omen",
     "spl"
   ],
-  "DalamudApiLevel": 15,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "IconUrl": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/plugins/NyaDraw/NyaDraw.png",
   "Punchline": "下一代小画家",
-  "Changelog": "- API15适配",
+  "Changelog": "- 新增临时激活码",
   "AcceptsFeedback": true
 }
