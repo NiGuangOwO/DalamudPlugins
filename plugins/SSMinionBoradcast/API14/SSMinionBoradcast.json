@@ -2,13 +2,13 @@
   "Author": "NiGuangOwO",
   "Name": "SSMinionBoradcast",
   "InternalName": "SSMinionBoradcast",
-  "AssemblyVersion": "7.5.0.0",
+  "AssemblyVersion": "7.4.0.0",
   "Description": "简单的播报SS前置小怪的小工具",
   "ApplicableVersion": "any",
   "Tags": [
     "SS"
   ],
-  "DalamudApiLevel": 15,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
