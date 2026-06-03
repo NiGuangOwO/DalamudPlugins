@@ -2,7 +2,7 @@
   "Author": "NiGuangOwO / Small_Miao",
   "Name": "NyaDraw",
   "InternalName": "NyaDraw",
-  "AssemblyVersion": "1.15.0.2",
+  "AssemblyVersion": "1.15.0.3",
   "Description": "有黄圈你躲不躲",
   "ApplicableVersion": "any",
   "Tags": [
@@ -17,6 +17,6 @@
   "LoadPriority": 0,
   "IconUrl": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/plugins/NyaDraw/NyaDraw.png",
   "Punchline": "下一代小画家",
-  "Changelog": "- API15适配",
+  "Changelog": "- 妖星乱舞绝境战 P1",
   "AcceptsFeedback": true
 }
