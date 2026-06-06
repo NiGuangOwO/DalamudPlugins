@@ -1,0 +1,20 @@
+{
+  "Author": "Small_Miao",
+  "Name": "MechanicSim",
+  "InternalName": "MechanicSim",
+  "AssemblyVersion": "0.0.0.1",
+  "Description": "Nope.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "sample",
+    "plugin",
+    "goats"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "一个可以联机的FFXIV机制模拟器",
+  "AcceptsFeedback": true
+}
