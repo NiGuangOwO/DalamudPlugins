@@ -10,10 +10,10 @@ jobs:
     name: Regenerate PluginMaster
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.8"
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Generate PluginMaster
         run: python generate_pluginmaster.py
       - uses: EndBug/add-and-commit@v7
