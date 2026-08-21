@@ -2,8 +2,8 @@
   "Author": "NightmareXIV / NiGuangOwO（汉化&适配）",
   "Name": "Lifestream",
   "InternalName": "Lifestream",
-  "AssemblyVersion": "2.5.4.14",
-  "Description": "- 一键传送到任何服务器或以太网目的地\n- 单击区域地图内的以太水晶以传送到它们",
+  "AssemblyVersion": "2.5.4.17",
+  "Description": "- 一键传送到任何服务器或以太水晶目的地\n- 单击区域地图内的以太水晶以传送到它们",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/NightmareXIV/Lifestream",
   "DalamudApiLevel": 15,
@@ -12,6 +12,6 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "IconUrl": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/icons/lifestream.png",
-  "Punchline": "一个加速以太网旅行和跨服的插件。",
+  "Punchline": "一个加速以太水晶旅行和跨服的插件。",
   "AcceptsFeedback": false
 }
