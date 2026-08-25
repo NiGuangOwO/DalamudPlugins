@@ -1,0 +1,18 @@
+{
+  "Author": "NiGuangOwO",
+  "Name": "SSMinionBoradcast",
+  "InternalName": "SSMinionBoradcast",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "简单的播报SS前置小怪的小工具",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "SS"
+  ],
+  "DalamudApiLevel": 13,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "简单的播报SS前置小怪的小工具",
+  "AcceptsFeedback": true
+}

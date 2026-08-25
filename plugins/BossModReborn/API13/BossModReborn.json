@@ -1,0 +1,23 @@
+{
+  "Author": "The Combat Reborn Team / NiGuangOwO（本地化&适配）",
+  "Name": "Bossmod Reborn",
+  "InternalName": "BossModReborn",
+  "AssemblyVersion": "7.3.5.27",
+  "Description": "后期软件兼容版",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/FFXIV-CombatReborn/BossmodReborn",
+  "DalamudApiLevel": 13,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "ImageUrls": [
+    "https://raw.githubusercontent.com/awgil/ffxiv_bossmod/master/Data/image1.png",
+    "https://raw.githubusercontent.com/awgil/ffxiv_bossmod/master/Data/image2.png",
+    "https://raw.githubusercontent.com/awgil/ffxiv_bossmod/master/Data/image3.png"
+  ],
+  "IconUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/RebornAssets/main/IconAssets/BMR_Icon.png",
+  "Punchline": "大脑按摩用的(在线安装Only)",
+  "Changelog": "自动深层迷宫模块中的自动躲避陷阱功能的陷阱数据，已与PalacePal在线数据同步，请安装同仓库下的PalacePal最新版一同使用",
+  "AcceptsFeedback": true
+}

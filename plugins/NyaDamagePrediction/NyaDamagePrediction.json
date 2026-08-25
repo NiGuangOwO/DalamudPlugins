@@ -1,0 +1,20 @@
+{
+  "Author": "Small_Miao",
+  "Name": "Nya Damage Prediction",
+  "InternalName": "NyaDamagePrediction",
+  "AssemblyVersion": "0.0.7.0",
+  "Description": "use /ndp to watch config",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "sample",
+    "plugin",
+    "goats"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "A plugin add flytext now Percent Damage",
+  "AcceptsFeedback": true
+}
