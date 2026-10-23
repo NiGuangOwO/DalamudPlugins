@@ -2,10 +2,10 @@
   "Author": "NiGuangOwO",
   "Name": "Dalamud MCP",
   "InternalName": "DalamudMCP",
-  "AssemblyVersion": "1.0.0.8",
+  "AssemblyVersion": "1.0.0.9",
   "Description": "Hosts a Model Context Protocol (MCP) server on a local port so that agents can read FINAL FANTASY XIV game memory via Dalamud and FFXIVClientStructs.",
   "ApplicableVersion": "any",
-  "RepoUrl": "https://github.com/NiGuangOwO/Dalamud-MCP",
+  "RepoUrl": "https://github.com/NiGuangOwO/DalamudMCP",
   "Tags": [
     "mcp",
     "agent",
@@ -17,7 +17,7 @@
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "IconUrl": "https://raw.githubusercontent.com/NiGuangOwO/Dalamud-MCP/main/src/DalamudMCP/images/icon.png",
+  "IconUrl": "https://raw.githubusercontent.com/NiGuangOwO/DalamudMCP/main/src/DalamudMCP/images/icon.png",
   "Punchline": "Expose FFXIV game memory to AI agents over MCP.",
   "AcceptsFeedback": false
 }
