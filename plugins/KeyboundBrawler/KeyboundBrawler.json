@@ -2,7 +2,7 @@
   "Author": "NiGuangOwO",
   "Name": "魔光键影助手",
   "InternalName": "KeyboundBrawler",
-  "AssemblyVersion": "0.1.0.6",
+  "AssemblyVersion": "0.1.0.8",
   "Description": "进入魔光键影比赛后自动输入词条，支持自定义提交间隔及悬浮窗暂停、恢复。使用 /keybound 或 /ktg 打开设置。实验功能，部分机制尚未验证。",
   "ApplicableVersion": "any",
   "Tags": [
