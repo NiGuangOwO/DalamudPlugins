@@ -8,7 +8,7 @@ concurrency: regenerate
 jobs:
   generate:
     name: Regenerate PluginMaster
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/setup-python@v2
         with:
