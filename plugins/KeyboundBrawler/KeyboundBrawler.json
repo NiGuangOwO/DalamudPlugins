@@ -2,8 +2,8 @@
   "Author": "NiGuangOwO",
   "Name": "魔光键影助手",
   "InternalName": "KeyboundBrawler",
-  "AssemblyVersion": "0.1.0.12",
-  "Description": "进入魔光键影比赛后自动输入词条，支持固定或按词条长度动态调整提交间隔，悬浮窗可暂停、恢复并调整提交延迟，并可在成绩窗口自动点击退出。使用 /keybound 或 /ktg 打开设置。实验功能，部分机制尚未验证。",
+  "AssemblyVersion": "0.1.0.15",
+  "Description": "进入魔光键影比赛后自动输入词条，优先处理屏障强化、读条敌人和接近屏障的词条，支持固定或按词条长度动态调整提交间隔，悬浮窗可暂停、恢复并调整提交延迟，并可在成绩窗口自动点击退出。使用 /keybound 或 /ktg 打开设置。实验功能，部分机制尚未验证。",
   "ApplicableVersion": "any",
   "Tags": [
     "goldsaucer",
