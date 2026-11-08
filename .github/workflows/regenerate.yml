@@ -1,23 +1,39 @@
 name: Regenerate PluginMaster
 on:
-  workflow_dispatch:
   push:
-    branches:
-      - main
-concurrency: regenerate
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+
+permissions:
+  contents: write
+concurrency:
+  group: pluginmaster
+  cancel-in-progress: false
+
 jobs:
   generate:
-    name: Regenerate PluginMaster
     runs-on: ubuntu-24.04
+    timeout-minutes: 15
     steps:
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v5
         with:
-          python-version: "3.8"
-      - uses: actions/checkout@v3
-      - name: Generate PluginMaster
-        run: python generate_pluginmaster.py
-      - uses: EndBug/add-and-commit@v7
+          path: distribution
+      - uses: actions/checkout@v5
         with:
-          author_name: GitHub Action
-          author_email: github-actions[bot]@users.noreply.github.com
-          message: Regenerate PluginMaster
+          repository: NiGuangOwO/DalamudMCP
+          path: source
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test index generation
+        run: python -m unittest discover -s distribution/tests -p "test_*.py"
+      - name: Reconcile published release and regenerate index
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          git -C distribution config user.name "github-actions[bot]"
+          git -C distribution config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python source/build/release_pipeline.py sync --distribution distribution --tag latest --push

@@ -1,162 +1,101 @@
+"""Generate a stable plugin index from local packages or verified release metadata."""
 import json
 import os
-from os.path import getmtime
+from pathlib import Path
+import re
 from zipfile import ZipFile
 
-BRANCH = os.environ["GITHUB_REF"].split("refs/heads/")[-1]
 DOWNLOAD_URL = "https://github.com/NiGuangOwO/DalamudPlugins/raw/{branch}/plugins/{plugin_name}/latest.zip"
-TESTING_DOWNLOAD_URL = "https://github.com/NiGuangOwO/DalamudPlugins/raw/{branch}/plugins/{plugin_name}/testing/latest.zip"
-# Generic subfolder download URL. Use with subfolder name, e.g. 'global' or other folder.
 SUB_DOWNLOAD_URL = "https://github.com/NiGuangOwO/DalamudPlugins/raw/{branch}/plugins/{plugin_name}/{subfolder}/latest.zip"
-
-DUPLICATES = {
-    "DownloadLinkInstall": ["DownloadLinkUpdate"],
-}
-
-TRIMMED_KEYS = [
-    "Author",
-    "Name",
-    "Punchline",
-    "Description",
-    "Tags",
-    "InternalName",
-    "RepoUrl",
-    "Changelog",
-    "AssemblyVersion",
-    "ApplicableVersion",
-    "DalamudApiLevel",
-    "TestingAssemblyVersion",
-    "TestingDalamudApiLevel",
-    "IconUrl",
-    "ImageUrls",
-    "Subfolder",
-]
+TRIMMED_KEYS = (
+    "Author", "Name", "Punchline", "Description", "Tags", "InternalName", "RepoUrl",
+    "Changelog", "AssemblyVersion", "ApplicableVersion", "DalamudApiLevel",
+    "TestingAssemblyVersion", "TestingDalamudApiLevel", "IconUrl", "ImageUrls",
+    "DownloadLinkInstall", "DownloadLinkUpdate", "DownloadLinkTesting", "LastUpdate",
+)
 
 
-def main():
-    master = extract_manifests()
-    master = [trim_manifest(manifest) for manifest in master]
-    add_extra_fields(master)
-    write_master(master)
-    last_update()
+def read_json(path):
+    return json.loads(Path(path).read_text(encoding="utf-8-sig"))
 
 
-def extract_manifests():
-    manifests = []
-    plugins_root = os.path.join(".", "plugins")
-    if not os.path.isdir(plugins_root):
-        return manifests
+def external_manifest(folder):
+    record = read_json(folder / "release.json")
+    manifest = read_json(folder / (folder.name + ".json"))
+    value = record["version"]
+    repo = record["sourceRepository"]
+    expected = f"https://github.com/{repo}/releases/download/v{value}/latest.zip"
+    if (record.get("schemaVersion") != 1
+            or not re.fullmatch(r"[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+", value)
+            or not re.fullmatch(r"[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+", repo)
+            or record["tag"] != "v" + value or record["assetName"] != "latest.zip"
+            or record["downloadUrl"] != expected
+            or not re.fullmatch(r"[0-9a-f]{64}", record["sha256"])
+            or manifest["AssemblyVersion"] != value
+            or manifest["InternalName"] != folder.name
+            or int(record["publishedAtUnix"]) <= 0):
+        raise ValueError("Invalid or inconsistent external release: " + folder.name)
+    manifest["DownloadLinkInstall"] = expected
+    manifest["DownloadLinkUpdate"] = expected
+    manifest["LastUpdate"] = str(record["publishedAtUnix"])
+    return manifest
 
-    for plugin_folder in sorted(os.listdir(plugins_root)):
-        plugin_dir = os.path.join(plugins_root, plugin_folder)
-        if not os.path.isdir(plugin_dir):
+
+def local_manifest(package, plugin_name):
+    with ZipFile(package) as archive:
+        return json.loads(archive.read(plugin_name + ".json").decode("utf-8-sig"))
+
+
+def generate(root=Path("."), branch="main"):
+    root = Path(root)
+    index_path = root / "pluginmaster.json"
+    previous = read_json(index_path) if index_path.exists() else []
+    old = {(entry["InternalName"], entry.get("DownloadLinkInstall")): entry for entry in previous}
+    entries = []
+    plugins = root / "plugins"
+    for folder in sorted(plugins.iterdir()) if plugins.exists() else []:
+        if not folder.is_dir():
             continue
-
-        plugin_name = plugin_folder
-        base_zip = os.path.join(plugin_dir, "latest.zip")
-        # If no base latest.zip, skip this plugin folder
-        if not os.path.exists(base_zip):
+        if (folder / "release.json").exists():
+            base, package = external_manifest(folder), None
+        elif (folder / "latest.zip").exists():
+            package = folder / "latest.zip"
+            base = local_manifest(package, folder.name)
+        else:
             continue
-
-        # Read base manifest
-        with ZipFile(base_zip) as z:
-            base_manifest = json.loads(z.read(f"{plugin_name}.json").decode("utf-8"))
-            base_manifest["Subfolder"] = None
-
-            # If there's a testing sub-zip, merge its assembly/api info into base manifest
-            testing_zip = os.path.join(plugin_dir, "testing", "latest.zip")
-            if os.path.exists(testing_zip):
-                with ZipFile(testing_zip) as tz:
-                    testing_manifest = json.loads(
-                        tz.read(f"{plugin_name}.json").decode("utf-8")
-                    )
-                    base_manifest["TestingAssemblyVersion"] = testing_manifest.get(
-                        "AssemblyVersion"
-                    )
-                    base_manifest["TestingDalamudApiLevel"] = testing_manifest.get(
-                        "DalamudApiLevel"
-                    )
-
-            manifests.append(base_manifest)
-
-        # Scan other subfolders in this plugin folder (e.g. global, other variants)
-        for sub in sorted(os.listdir(plugin_dir)):
-            sub_path = os.path.join(plugin_dir, sub)
-            if not os.path.isdir(sub_path):
-                continue
-            if sub == "testing":
-                continue
-
-            sub_zip = os.path.join(sub_path, "latest.zip")
-            if os.path.exists(sub_zip):
-                with ZipFile(sub_zip) as sz:
-                    sub_manifest = json.loads(
-                        sz.read(f"{plugin_name}.json").decode("utf-8")
-                    )
-                    sub_manifest["Subfolder"] = sub
-                    sub_manifest["Name"] = f"{sub_manifest['Name']} ({sub})"
-                    manifests.append(sub_manifest)
-
-    return manifests
-
-
-def add_extra_fields(manifests):
-    for manifest in manifests:
-        sub = manifest.get("Subfolder")
-        if sub:
-            manifest["DownloadLinkInstall"] = SUB_DOWNLOAD_URL.format(
-                branch=BRANCH, plugin_name=manifest["InternalName"], subfolder=sub
-            )
-        else:
-            manifest["DownloadLinkInstall"] = DOWNLOAD_URL.format(
-                branch=BRANCH, plugin_name=manifest["InternalName"]
-            )
-
-        for src, targets in DUPLICATES.items():
-            for target in targets:
-                if target not in manifest:
-                    manifest[target] = manifest[src]
-
-        if "TestingAssemblyVersion" in manifest and not manifest.get("Subfolder"):
-            manifest["DownloadLinkTesting"] = TESTING_DOWNLOAD_URL.format(
-                branch=BRANCH, plugin_name=manifest["InternalName"]
-            )
-
-        manifest["DownloadCount"] = 0
-
-
-def write_master(master):
-    # Remove Subfolder field before writing to JSON (internal use only)
-    for plugin in master:
-        plugin.pop("Subfolder", None)
-    with open("pluginmaster.json", "w") as f:
-        json.dump(master, f, indent=4)
-
-
-def trim_manifest(plugin):
-    return {k: plugin[k] for k in TRIMMED_KEYS if k in plugin}
-
-
-def last_update():
-    with open("pluginmaster.json", encoding="utf-8") as f:
-        master = json.load(f)
-
-    for plugin in master:
-        sub = plugin.get("Subfolder")
-        if sub:
-            file_path = os.path.join(
-                "plugins", plugin["InternalName"], sub, "latest.zip"
-            )
-        else:
-            file_path = os.path.join("plugins", plugin["InternalName"], "latest.zip")
-
-        modified = int(getmtime(file_path))
-        if "LastUpdate" not in plugin or modified != int(plugin.get("LastUpdate", 0)):
-            plugin["LastUpdate"] = str(modified)
-
-    with open("pluginmaster.json", "w", encoding="utf-8") as f:
-        json.dump(master, f, indent=4, ensure_ascii=False)
+        testing = folder / "testing/latest.zip"
+        if testing.exists():
+            test = local_manifest(testing, folder.name)
+            base["TestingAssemblyVersion"] = test.get("AssemblyVersion")
+            base["TestingDalamudApiLevel"] = test.get("DalamudApiLevel")
+            base["DownloadLinkTesting"] = SUB_DOWNLOAD_URL.format(
+                branch=branch, plugin_name=folder.name, subfolder="testing")
+        variants = [(base, package, None)]
+        for child in sorted(folder.iterdir()):
+            if child.is_dir() and child.name != "testing" and (child / "latest.zip").exists():
+                variant = local_manifest(child / "latest.zip", folder.name)
+                variant["Name"] += " (" + child.name + ")"
+                variants.append((variant, child / "latest.zip", child.name))
+        for manifest, package, subfolder in variants:
+            entry = {key: manifest[key] for key in TRIMMED_KEYS if key in manifest}
+            if "DownloadLinkInstall" not in entry:
+                template = SUB_DOWNLOAD_URL if subfolder else DOWNLOAD_URL
+                entry["DownloadLinkInstall"] = template.format(
+                    branch=branch, plugin_name=folder.name, subfolder=subfolder)
+            entry.setdefault("DownloadLinkUpdate", entry["DownloadLinkInstall"])
+            entry["DownloadCount"] = 0
+            if "LastUpdate" not in entry:
+                existing = old.get((entry["InternalName"], entry["DownloadLinkInstall"]))
+                compare = lambda item: {key: val for key, val in item.items() if key != "LastUpdate"}
+                if existing and compare(existing) == compare(entry):
+                    entry["LastUpdate"] = existing["LastUpdate"]
+                else:
+                    entry["LastUpdate"] = str(int(package.stat().st_mtime))
+            entries.append(entry)
+    if entries != previous:
+        index_path.write_text(json.dumps(entries, ensure_ascii=False, indent=4) + "\n", encoding="utf-8")
+    return entries
 
 
 if __name__ == "__main__":
-    main()
+    generate(Path.cwd(), os.environ.get("GITHUB_REF", "refs/heads/main").removeprefix("refs/heads/"))
