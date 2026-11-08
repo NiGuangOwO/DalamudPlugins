@@ -51,8 +51,15 @@ def generate(root=Path("."), branch="main"):
     index_path = root / "pluginmaster.json"
     previous = read_json(index_path) if index_path.exists() else []
     old = {(entry["InternalName"], entry.get("DownloadLinkInstall")): entry for entry in previous}
+    external_plugins = {
+        entry["InternalName"] for entry in previous
+        if "/releases/download/" in entry.get("DownloadLinkInstall", "")
+    }
     entries = []
     plugins = root / "plugins"
+    for name in external_plugins:
+        if not (plugins / name / "release.json").is_file():
+            raise ValueError("Missing release.json for external plugin: " + name)
     for folder in sorted(plugins.iterdir()) if plugins.exists() else []:
         if not folder.is_dir():
             continue

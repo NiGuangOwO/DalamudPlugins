@@ -44,6 +44,31 @@ class IndexGeneration(unittest.TestCase):
         self.local("DalamudMCP", "1.0.0.45");self.external()
         self.assertEqual(generator.generate(self.root)[0]["AssemblyVersion"], "1.0.0.46")
 
+    def test_missing_descriptor_cannot_fall_back_to_old_zip(self):
+        self.local("DalamudMCP", "1.0.0.45");folder, _ = self.external()
+        generator.generate(self.root)
+        before = (self.root / "pluginmaster.json").read_bytes()
+        (folder / "release.json").unlink()
+        with self.assertRaisesRegex(ValueError, "Missing release.json"):
+            generator.generate(self.root)
+        self.assertEqual((self.root / "pluginmaster.json").read_bytes(), before)
+
+    def test_missing_descriptor_cannot_silently_drop_plugin(self):
+        folder, _ = self.external();generator.generate(self.root)
+        before = (self.root / "pluginmaster.json").read_bytes()
+        (folder / "release.json").unlink()
+        with self.assertRaisesRegex(ValueError, "Missing release.json"):
+            generator.generate(self.root)
+        self.assertEqual((self.root / "pluginmaster.json").read_bytes(), before)
+
+    def test_removed_external_folder_requires_explicit_index_removal(self):
+        folder, _ = self.external();generator.generate(self.root)
+        before = (self.root / "pluginmaster.json").read_bytes()
+        (folder / "release.json").unlink();(folder / "DalamudMCP.json").unlink();folder.rmdir()
+        with self.assertRaisesRegex(ValueError, "Missing release.json"):
+            generator.generate(self.root)
+        self.assertEqual((self.root / "pluginmaster.json").read_bytes(), before)
+
     def test_inconsistent_metadata_does_not_replace_index(self):
         folder, record = self.external();generator.generate(self.root)
         before = (self.root / "pluginmaster.json").read_bytes()
