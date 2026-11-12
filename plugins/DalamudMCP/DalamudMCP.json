@@ -2,7 +2,7 @@
   "Author": "NiGuangOwO",
   "Name": "DalamudMCP",
   "InternalName": "DalamudMCP",
-  "AssemblyVersion": "1.0.0.48",
+  "AssemblyVersion": "1.0.0.49",
   "Description": "通过 MCP（模型上下文协议）连接 AI 助手与 FINAL FANTASY XIV，为 Dalamud 插件开发、运行时分析和游戏内验证提供工具。\n\n读取角色、物品栏、游戏数据、界面文本与运行日志，检查插件和 IPC，并在授权后执行界面交互等操作。\n\n安装后输入 /dalamudmcp 打开设置，并配置支持 MCP 的 AI 客户端。默认仅开放只读工具；修改游戏状态的工具需手动启用。仅支持 stdio 的客户端可使用配套桥接程序。\n\nConnect AI agents to FINAL FANTASY XIV through the Model Context Protocol (MCP) for Dalamud plugin development, runtime analysis, and in-game validation.\n\nRead character, inventory, game data, UI text, and runtime logs; inspect plugins and IPC; and perform UI interactions with explicit permission.\n\nAfter installation, open settings with /dalamudmcp and configure an MCP-compatible AI client. Only read-only tools are enabled by default; tools that change game state must be enabled manually. A companion bridge is available for stdio-only clients.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/NiGuangOwO/DalamudMCP",
