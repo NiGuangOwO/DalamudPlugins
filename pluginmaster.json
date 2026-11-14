@@ -224,13 +224,13 @@
         ],
         "InternalName": "DalamudMCP",
         "RepoUrl": "https://github.com/NiGuangOwO/DalamudMCP",
-        "AssemblyVersion": "1.0.0.51",
+        "AssemblyVersion": "1.0.0.52",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 15,
         "IconUrl": "https://raw.githubusercontent.com/NiGuangOwO/DalamudMCP/main/src/DalamudMCP/images/icon.png",
-        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudMCP/releases/download/v1.0.0.51/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudMCP/releases/download/v1.0.0.51/latest.zip",
-        "LastUpdate": "1794493327",
+        "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudMCP/releases/download/v1.0.0.52/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudMCP/releases/download/v1.0.0.52/latest.zip",
+        "LastUpdate": "1794641390",
         "DownloadCount": 0
     },
     {
