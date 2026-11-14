@@ -149,7 +149,7 @@
         ],
         "InternalName": "BossModReborn",
         "RepoUrl": "https://github.com/FFXIV-CombatReborn/BossmodReborn",
-        "AssemblyVersion": "7.5.8.1",
+        "AssemblyVersion": "7.5.8.5",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 15,
         "IconUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/RebornAssets/main/IconAssets/BMR_Icon.png",
@@ -161,7 +161,7 @@
         "DownloadLinkInstall": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossModReborn/latest.zip",
         "DownloadLinkUpdate": "https://github.com/NiGuangOwO/DalamudPlugins/raw/main/plugins/BossModReborn/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1794395704"
+        "LastUpdate": "1794630327"
     },
     {
         "Author": "The Combat Reborn Team / NiGuangOwO（本地化&适配）",
