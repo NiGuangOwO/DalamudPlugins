@@ -1,0 +1,28 @@
+{
+  "Author": "kawaii, Ice / NiGuangOwO（本地化适配）",
+  "Name": "Palantir",
+  "InternalName": "Palantir",
+  "AssemblyVersion": "0.0.0.10",
+  "Description": "Palantir 延续了 Liza Carvelli 的 PalacePal，通过玩家共享的数据标出已记录的陷阱和埋藏的宝藏。还可显示宝箱、传送与再生设施、怪物警戒范围和小地图。怪物警戒提示参考了 Jukka 的 Necrolens。",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "深层迷宫",
+    "死者宫殿",
+    "天之御柱",
+    "正统优雷卡",
+    "朝圣交错路",
+    "deep dungeon",
+    "palace of the dead",
+    "heaven-on-high",
+    "eureka orthos",
+    "pilgrim's traverse",
+    "necrolens"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "深层迷宫的陷阱、宝藏和怪物警戒范围提示。",
+  "AcceptsFeedback": true
+}
