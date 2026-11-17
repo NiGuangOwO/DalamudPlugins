@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "sourceRepository": "NiGuangOwO/DalamudMCP",
-  "tag": "v1.0.0.57",
-  "version": "1.0.0.57",
+  "tag": "v1.0.0.58",
+  "version": "1.0.0.58",
   "assetName": "latest.zip",
-  "downloadUrl": "https://github.com/NiGuangOwO/DalamudMCP/releases/download/v1.0.0.57/latest.zip",
-  "sha256": "deca1865a38fa4e7ae80a831f539a668f4d98e02a7f72bbbe434321abf3a25e0",
-  "publishedAt": "2026-11-16T13:38:05Z",
-  "publishedAtUnix": 1794836285
+  "downloadUrl": "https://github.com/NiGuangOwO/DalamudMCP/releases/download/v1.0.0.58/latest.zip",
+  "sha256": "1e81c1bf86e7391cbaa1b545fddd6298754cb0976a7c9fdc504585d295c6ed83",
+  "publishedAt": "2026-11-17T12:50:36Z",
+  "publishedAtUnix": 1794919836
 }
